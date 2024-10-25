@@ -7,9 +7,6 @@ High level overview of the main experiment--"Testing LLM Oversight With SAEs":
 4. Create a setup that will cut off the response if misbehavior is detected 
 
 
-
-
-
 Things to add if we have time:
 1. Compare the effectiveness of this method to a similar method based only on probing of real activations (easy)
 2. Do this on multiple models, or multiple sizes of the same suite of models
