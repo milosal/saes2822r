@@ -1,0 +1,13 @@
+datasets==2.18.0
+einops==0.8.0
+fancy_einsum==0.0.3
+huggingface_hub==0.26.1
+jaxtyping==0.2.34
+numpy==2.1.2
+pandas==2.2.3
+plotly==5.20.0
+sae_lens==4.0.9
+scikit_learn==1.4.2
+torch==2.1.2
+tqdm==4.66.2
+transformer_lens==2.8.1
