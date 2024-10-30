@@ -47,67 +47,83 @@ NEG_SET_SIZE = 200
 POS_SET_SIZE = 200
 
 # %%
-# load gemma model 
-model = HookedSAETransformer.from_pretrained("gemma-2-2b", device = device)
+# Load gemma model 
+model = HookedSAETransformer.from_pretrained("gemma-2-2b", device=device)
 
-# load sae on res stream of gemma model, plus cfg and sparsity val
+# Load SAE on res stream of gemma model, plus cfg and sparsity val
 sae, cfg_dict, sparsity = SAE.from_pretrained(
-    release = "gemma-scope-2b-pt-res",
-    sae_id = "layer_14/width_16k/average_l0_83",
-    device = device
+    release="gemma-scope-2b-pt-res",
+    sae_id="layer_14/width_16k/average_l0_83",
+    device=device
 )
 
 # %%
 df = pd.read_csv('dataset/harmful_strings.csv')
-
-columns_as_arrays = [df[col].values for col in df.columns]
-
-array_dict = {col: df[col].values for col in df.columns}
-
-negative_set = columns_as_arrays[0]
-negative_set = negative_set[:NEG_SET_SIZE]
-print(len(negative_set))
+negative_set = df[df.columns[0]].values[:NEG_SET_SIZE]
+print(f"Negative set size: {len(negative_set)}")
 
 # %%
 positive = pd.read_json('dataset/alpaca_data.json')
-
-positive_set = positive['output'].values
-positive_set = positive_set[:POS_SET_SIZE]
-print(len(positive_set))
+positive_set = positive['output'].values[:POS_SET_SIZE]
+print(f"Positive set size: {len(positive_set)}")
 
 # %%
-sae.use_error_term
+# Define custom Dataset and DataLoader
+from torch.utils.data import Dataset, DataLoader
 
+class TextDataset(Dataset):
+    def __init__(self, texts):
+        self.texts = texts
+    def __len__(self):
+        return len(self.texts)
+    def __getitem__(self, idx):
+        return self.texts[idx]
+
+batch_size = 32  # Adjust as per your GPU memory capacity
+
+negative_dataset = TextDataset(negative_set)
+positive_dataset = TextDataset(positive_set)
+
+negative_loader = DataLoader(negative_dataset, batch_size=batch_size, shuffle=False)
+positive_loader = DataLoader(positive_dataset, batch_size=batch_size, shuffle=False)
+
+# %%
+# Collect top neurons for negative and positive sets
 top_neurons_neg = defaultdict(list)
 top_neurons_pos = defaultdict(list)
 
-for example in negative_set:
-    _, cache = model.run_with_cache_with_saes(example, saes=[sae])
+# Process negative set
+for batch in negative_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache_with_saes(tokens, saes=[sae])
+    activations = cache['blocks.14.hook_resid_post.hook_sae_acts_post'][:, -1, :]  # Shape: (batch_size, hidden_size)
+    vals, inds = torch.topk(activations, 15, dim=-1)  # Shape: (batch_size, 15)
+    for i in range(vals.size(0)):
+        for neuron_idx in range(15):
+            neuron = inds[i, neuron_idx].item()
+            activation = vals[i, neuron_idx].item()
+            top_neurons_neg[neuron].append(activation)
 
-    # get top 15 firing sae neurons
-    vals, inds = torch.topk(cache['blocks.14.hook_resid_post.hook_sae_acts_post'][0, -1, :], 15)
+# Process positive set
+for batch in positive_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache_with_saes(tokens, saes=[sae])
+    activations = cache['blocks.14.hook_resid_post.hook_sae_acts_post'][:, -1, :]  # Shape: (batch_size, hidden_size)
+    vals, inds = torch.topk(activations, 15, dim=-1)  # Shape: (batch_size, 15)
+    for i in range(vals.size(0)):
+        for neuron_idx in range(15):
+            neuron = inds[i, neuron_idx].item()
+            activation = vals[i, neuron_idx].item()
+            top_neurons_pos[neuron].append(activation)
 
-    for datapoint in zip(inds, vals):
-        top_neurons_neg[int(datapoint[0])].append(datapoint[1].item())
-    
-
-for example in positive_set:
-    _, cache = model.run_with_cache_with_saes(example, saes=[sae])
-
-    # get top 15 firing sae neurons
-    vals, inds = torch.topk(cache['blocks.14.hook_resid_post.hook_sae_acts_post'][0, -1, :], 15)
-    for datapoint in zip(inds, vals):
-        top_neurons_pos[int(datapoint[0])].append(datapoint[1].item())
-
-print(top_neurons_neg)
-print(top_neurons_pos)
+print(f"Top neurons in negative set: {len(top_neurons_neg)}")
+print(f"Top neurons in positive set: {len(top_neurons_pos)}")
 
 # %%
 def filter_neurons(top_neurons_neg, top_neurons_pos, threshold=5.0):
     """
     Filters out neurons that are highly activated in both the negative and positive sets.
     """
-    
     filtered_neurons_neg = {}
     filtered_neurons_pos = {}
 
@@ -128,58 +144,47 @@ print(f"Len: {len(filtered_neg)}. Filtered negative neurons: {filtered_neg}")
 print(f"Len: {len(filtered_pos)}. Filtered positive neurons: {filtered_pos}")
 
 # %%
-# train classifier on top activations
-# average activations over each top case, sends to
-# top_neurons_neg/pos = {idx: avg_act, idx2:avg_act2, ...}
-top_neurons_neg_mean = {}
-for entry in filtered_neg:
-    top_neurons_neg_mean[entry] = len(filtered_neg[entry])
+# Compute mean activations for filtered neurons
+top_neurons_neg_mean = {neuron: len(activations) for neuron, activations in filtered_neg.items()}
+top_neurons_pos_mean = {neuron: len(activations) for neuron, activations in filtered_pos.items()}
 
-top_neurons_pos_mean = {}
-for entry in filtered_pos:
-    top_neurons_pos_mean[entry] = len(filtered_pos[entry])
-
-print(top_neurons_neg_mean)
-print(top_neurons_pos_mean)
-
-# sort by avg activation
+# Sort by activation count
 top_neurons_neg_mean = {k: v for k, v in sorted(top_neurons_neg_mean.items(), key=lambda item: item[1], reverse=True)}
 top_neurons_pos_mean = {k: v for k, v in sorted(top_neurons_pos_mean.items(), key=lambda item: item[1], reverse=True)}
 
-
-# print first few
+# Print first few
 print(list(top_neurons_neg_mean.items())[:200])
 print(list(top_neurons_pos_mean.items())[:200])
 
 # %%
-# train classifier on sae activations
+# Train classifier on SAE activations
 activations_list = []
 labels_list = []
 
-# 0 = negative, 1 = positive
-for example_txt in negative_set:
-    _, cache = model.run_with_cache_with_saes(example_txt, saes=[sae])
-    activations = cache['blocks.14.hook_resid_post.hook_sae_acts_post'][0, -1, :].cpu().numpy()
-    #print(activations.shape)
+# Process negative set
+for batch in negative_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache_with_saes(tokens, saes=[sae])
+    activations = cache['blocks.14.hook_resid_post.hook_sae_acts_post'][:, -1, :].cpu().numpy()
+    activations_list.extend(activations)
+    labels_list.extend([0]*activations.shape[0])
 
-    activations_list.append(activations)
-    labels_list.append(0)
+# Process positive set
+for batch in positive_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache_with_saes(tokens, saes=[sae])
+    activations = cache['blocks.14.hook_resid_post.hook_sae_acts_post'][:, -1, :].cpu().numpy()
+    activations_list.extend(activations)
+    labels_list.extend([1]*activations.shape[0])
 
-for example_txt in positive_set:
-    _, cache = model.run_with_cache_with_saes(example_txt, saes=[sae])
-    activations = cache['blocks.14.hook_resid_post.hook_sae_acts_post'][0, -1, :].cpu().numpy()
-
-    activations_list.append(activations)
-    labels_list.append(1)   
-
-# data
+# Data
 X = np.array(activations_list)
 y = np.array(labels_list)
 
-# train test split
+# Train test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# scale activation features
+# Scale activation features
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
@@ -193,42 +198,41 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f'Test Accuracy: {accuracy:.4f}')
 
 # %%
-# train classifier on base activations
+# Train classifier on base activations
 activations_list = []
 labels_list = []
 
-# 0 = negative, 1 = positive
-for example_txt in negative_set:
-    _, cache = model.run_with_cache(example_txt)
+# Process negative set
+for batch in negative_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache(tokens)
+    # Assuming 'decompose_resid' supports batching
     res_stream = cache.decompose_resid(layer=15, return_labels=False, mode='attn', incl_embeds=False, pos_slice=slice(-2, -1))
-    seven_out = res_stream[-1, 0, -1, :].cpu().numpy() # layer batch pos d_model
-    #print(seven_out.shape)
+    seven_out = res_stream[-1, :, -1, :].cpu().numpy()  # Shape: (batch_size, d_model)
+    activations_list.extend(seven_out)
+    labels_list.extend([0]*seven_out.shape[0])
 
-    activations_list.append(seven_out)
-    labels_list.append(0)
-
-#print("done w bad")
-
-for example_txt in positive_set:
-    _, cache = model.run_with_cache(example_txt)
+# Process positive set
+for batch in positive_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache(tokens)
     res_stream = cache.decompose_resid(layer=15, return_labels=False, mode='attn', incl_embeds=False, pos_slice=slice(-2, -1))
-    seven_out = res_stream[-1, 0, -1, :].cpu().numpy()  # layer batch pos d_model
+    seven_out = res_stream[-1, :, -1, :].cpu().numpy()  # Shape: (batch_size, d_model)
+    activations_list.extend(seven_out)
+    labels_list.extend([1]*seven_out.shape[0])
 
-    activations_list.append(seven_out)
-    labels_list.append(1)
-
-# data and split
+# Data and split
 X = np.array(activations_list)
 y = np.array(labels_list)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# scale features 
+# Scale features 
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
-# train classifier
+# Train classifier
 clf = LogisticRegression(max_iter=1000, solver='lbfgs') 
 clf.fit(X_train, y_train)
 
@@ -237,49 +241,42 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f'Test Accuracy: {accuracy:.4f}')
 
 # %%
-# reject sample if activation at any of top N neurons is above threshold T
+# Reject sample if activation at any of top N neurons is above threshold T
 THRESHOLD = 2
 NEURONS_TO_CONSIDER = 100
 
 top_neurons_neg_occ = list(top_neurons_neg_mean.items())[:NEURONS_TO_CONSIDER]
-top_neurons_pos_mean = []
-neg_indicators = []
+neg_indicators = [neuron for neuron, _ in top_neurons_neg_occ]
 
-for entry in top_neurons_neg_occ:
-    neg_indicators.append(entry[0])
+print(f"Indicator neurons: {neg_indicators}")
 
-print(neg_indicators)
-
-# run an inference, if hits threshold on any of the neurons classify as bad
-e = 0
+# Initialize classification arrays
 neg_classifications = np.zeros(NEG_SET_SIZE)
-for example in negative_set:
-    _, cache = model.run_with_cache_with_saes(example, saes=[sae])
-
-    # get data from indicator neurons
-    val = cache['blocks.7.hook_resid_pre.hook_sae_acts_post'][0, -1, :]
-    for critical_neuron_idx in neg_indicators:
-        if (val[critical_neuron_idx] > THRESHOLD):
-            neg_classifications[e] = 1
-            break
-    e += 1
-
 pos_classifications = np.zeros(POS_SET_SIZE)
 
-
+# Process negative set
 e = 0
-for example in positive_set:
-    _, cache = model.run_with_cache_with_saes(example, saes=[sae])
+for batch in negative_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache_with_saes(tokens, saes=[sae])
+    val = cache['blocks.7.hook_resid_pre.hook_sae_acts_post'][:, -1, :]  # Shape: (batch_size, hidden_size)
+    critical_activations = val[:, neg_indicators]
+    exceed_threshold = (critical_activations > THRESHOLD).any(dim=1).cpu().numpy().astype(int)
+    batch_size = len(batch)
+    neg_classifications[e:e+batch_size] = exceed_threshold
+    e += batch_size
 
-    # get data from indicator neurons
-    val = cache['blocks.7.hook_resid_pre.hook_sae_acts_post'][0, -1, :]
-    for critical_neuron_idx in neg_indicators:
-        if (val[critical_neuron_idx] > THRESHOLD):
-            pos_classifications[e] = 1
-            break
-    e += 1
+# Process positive set
+e = 0
+for batch in positive_loader:
+    tokens = model.to_tokens(batch).to(device)
+    _, cache = model.run_with_cache_with_saes(tokens, saes=[sae])
+    val = cache['blocks.7.hook_resid_pre.hook_sae_acts_post'][:, -1, :]  # Shape: (batch_size, hidden_size)
+    critical_activations = val[:, neg_indicators]
+    exceed_threshold = (critical_activations > THRESHOLD).any(dim=1).cpu().numpy().astype(int)
+    batch_size = len(batch)
+    pos_classifications[e:e+batch_size] = exceed_threshold
+    e += batch_size
 
-print(" RATS ! ", np.sum(neg_classifications) / 2)
-print(" GENIUSES ! ", np.sum(pos_classifications) / 2)
-
-
+print("Negative set rejections: ", np.sum(neg_classifications))
+print("Positive set rejections: ", np.sum(pos_classifications))
