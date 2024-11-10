@@ -1,0 +1,1172 @@
+[
+    {
+        "instruction": "Dar tres consejos para mantenerse saludable.",
+        "input": "",
+        "output": "1. Siga una dieta equilibrada y asegúrese de incluir abundantes frutas y verduras. \n2. Haga ejercicio con regularidad para mantener su cuerpo activo y fuerte. \n3. Duerma lo suficiente y mantenga un horario de sueño constante."
+    },
+    {
+        "instruction": "¿Cuáles son los tres colores primarios?",
+        "input": "",
+        "output": "Los tres colores primarios son rojo, azul y amarillo."
+    },
+    {
+        "instruction": "Describe la estructura de un átomo.",
+        "input": "",
+        "output": "Un átomo está formado por un núcleo, que contiene protones y neutrones, rodeado de electrones que viajan en órbitas alrededor del núcleo. Los protones y neutrones tienen una carga positiva, mientras que los electrones tienen una carga negativa, lo que da como resultado un átomo neutro en general. La cantidad de cada partícula determina el número atómico y el tipo de átomo."
+    },
+    {
+        "instruction": "¿Cómo podemos reducir la contaminación del aire?",
+        "input": "",
+        "output": "Existen diversas maneras de reducir la contaminación del aire, como por ejemplo, pasar a fuentes de energía renovables, fomentar el uso del transporte público, prohibir la quema de combustibles fósiles, implementar políticas para reducir las emisiones de fuentes industriales e implementar estándares de emisiones de vehículos. Además, las personas pueden hacer su parte para reducir la contaminación del aire reduciendo el uso del automóvil, evitando quemar materiales como la madera y cambiando a electrodomésticos de bajo consumo."
+    },
+    {
+        "instruction": "Describe una ocasión en la que tuviste que tomar una decisión difícil.",
+        "input": "",
+        "output": "Tuve que tomar una decisión difícil cuando trabajaba como gerente de proyectos en una empresa de construcción. Estaba a cargo de un proyecto que debía completarse en una fecha determinada para cumplir con las expectativas del cliente. Sin embargo, debido a demoras inesperadas, no pudimos cumplir con el plazo, por lo que tuve que tomar una decisión difícil. Decidí extender el plazo, pero tuve que estirar aún más los recursos del equipo y aumentar el presupuesto. Aunque fue una decisión arriesgada, finalmente decidí seguir adelante para asegurarme de que el proyecto se completara a tiempo y que se cumplieran las expectativas del cliente. El proyecto finalmente se completó con éxito y esto se consideró un testimonio de mis habilidades de liderazgo y toma de decisiones."
+    },
+    {
+        "instruction": "Identifica lo que no encaja.",
+        "input": "Twitter, Instagram, Telegrama",
+        "output": "Telegrama"
+    },
+    {
+        "instruction": "Explica por qué la siguiente fracción es equivalente a 1/4",
+        "input": "4/16",
+        "output": "La fracción 4/16 es equivalente a 1/4 porque tanto los numeradores como los denominadores son divisibles por 4. Al dividir los números superiores e inferiores por 4 se obtiene la fracción 1/4."
+    },
+    {
+        "instruction": "Escribe una historia corta en tercera persona sobre un protagonista que tiene que tomar una decisión profesional importante.",
+        "input": "",
+        "output": "John se encontraba en una encrucijada en su vida. Acababa de graduarse de la universidad y ahora se enfrentaba a la gran decisión de qué carrera seguir. Después de mucha deliberación, decidió que quería ser contador y ayudar a los económicamente desfavorecidos. Siempre se le habían dado bien los números y disfrutaba viendo los resultados tangibles de su trabajo. \n\nJohn se inscribió en cursos de contabilidad y al principio le resultó bastante difícil. Tuvo que aprender rápidamente varios sistemas y regulaciones, pero trabajó duro y finalmente se destacó en sus estudios. Después de unos años, John comenzó a trabajar en una firma de contabilidad en su ciudad. Estaba ansioso por poner en práctica sus conocimientos de impuestos y contabilidad en un entorno del mundo real. \n\nA John le encantaba su trabajo, ya que le permitía expresar su creatividad para encontrar estrategias para ahorrar dinero a sus clientes. Después de unos años en la firma, se convirtió en contador senior y le pidieron que manejara casos más grandes y desafiantes. Ahora era una figura respetada en la industria financiera, pero todavía recuerda cuando era un recién graduado de la universidad, inseguro de la dirección que tomaría su vida."
+    },
+    {
+        "instruction": "Renderizar un modelo 3D de una casa",
+        "input": "",
+        "output": "<nooutput> Este tipo de instrucción no puede ser cumplida por un modelo GPT."
+    },
+    {
+        "instruction": "Evalúa esta oración en busca de errores ortográficos y gramaticales.",
+        "input": "Terminó su comida y salió del restaurante.",
+        "output": "Terminó su comida y salió del restaurante."
+    },
+    {
+        "instruction": "¿Cómo murió Julio César?",
+        "input": "",
+        "output": "Julio César fue asesinado por un grupo de hasta 60 conspiradores, liderados por Cayo Casio Longino y Marco Junio ​​​​Bruto, en la Casa del Senado el 15 de marzo del 44 a. C."
+    },
+    {
+        "instruction": "¿Cuál es la capital de Francia?",
+        "input": "",
+        "output": "La capital de Francia es París."
+    },
+    {
+        "instruction": "Generar una lista de diez artículos que una persona podría necesitar para un viaje de campamento.",
+        "input": "",
+        "output": "1. Tienda de campaña\n2. Sacos de dormir\n3. Linterna\n4. Fósforos o encendedor\n5. Repelente de insectos\n6. Ropa extra\n7. Botiquín de primeros auxilios\n8. Estufa de camping\n9. Utensilios de cocina\n10. Jabones y champús biodegradables"
+    },
+    {
+        "instruction": "Discuta las causas de la Gran Depresión.",
+        "input": "",
+        "output": "La Gran Depresión fue una grave crisis económica mundial que duró desde 1929 hasta 1939. Fue causada por varios factores, entre ellos el desplome de la bolsa de valores de 1929, las debilidades estructurales de la economía, el bajo gasto de los consumidores, el alto desempleo y la falta de confianza en el sistema bancario. Otros factores que contribuyeron a la crisis fueron la sobreproducción de materias primas, la dependencia del endeudamiento para financiar las inversiones, la sobreproducción agrícola y la disminución del comercio internacional."
+    },
+    {
+        "instruction": "Clasifique los siguientes en animales, plantas y minerales.",
+        "input": "Roble, mineral de cobre, elefante",
+        "output": "Roble: Planta\nMena de cobre: ​​Mineral\nElefante: Animal"
+    },
+    {
+        "instruction": "Explicar el uso de incrustaciones de palabras en el procesamiento del lenguaje natural.",
+        "input": "",
+        "output": "Las incrustaciones de palabras son una de las herramientas más potentes disponibles para el procesamiento del lenguaje natural (PLN). Son representaciones matemáticas de palabras o frases en un espacio vectorial, lo que permite medir las similitudes entre las palabras y el contexto en el que se utilizan. Las incrustaciones de palabras son útiles para tareas como el análisis de sentimientos, la clasificación de textos, la predicción de la siguiente palabra en una secuencia y la comprensión de sinónimos y analogías. Permiten procesar las palabras como valores numéricos, lo que proporciona a las máquinas una forma más sencilla de realizar tareas de PLN."
+    },
+    {
+        "instruction": "Describe la función de una placa base de computadora.",
+        "input": "",
+        "output": "La placa base es la placa de circuito principal de una computadora. Es la columna vertebral del sistema y conecta todos los demás componentes, como el procesador, la memoria RAM, el almacenamiento, la tarjeta gráfica y los puertos periféricos. Proporciona vías de comunicación entre todos estos componentes, lo que les permite interactuar y trabajar juntos. La placa base es responsable de regular la energía y también alberga ranuras para tarjetas de expansión, así como puertos para USB, audio, Ethernet y otros tipos de conexión."
+    },
+    {
+        "instruction": "Realice ingeniería inversa de este código para crear una nueva versión",
+        "input": "def factorialize(num):\nfactorial = 1\npara i en rango(1, num):\nfactorial *= i\n\ndevuelve factorial",
+        "output": "def factorialize(num):\nfactorial = 1\npara i en rango(num, 0, -1):\nfactorial *= i\n\ndevuelve factorial"
+    },
+    {
+        "instruction": "Proponer una solución ética al problema de la privacidad de los datos",
+        "input": "",
+        "output": "Una solución ética al problema de la privacidad de los datos es implementar una política de recolección de datos con consentimiento explícito. Esto significa que las empresas no pueden recolectar y usar datos personales sin el permiso explícito de los propietarios de los datos. Este enfoque otorga a los usuarios el poder de determinar qué datos pueden usar las empresas y con qué propósito. Las empresas también deben ser transparentes sobre cómo usan los datos recolectados, de modo que los usuarios puedan tomar decisiones informadas y tener control sobre sus propios datos."
+    },
+    {
+        "instruction": "Genera tres verbos que signifiquen lo mismo que \"pedir disculpas\"",
+        "input": "",
+        "output": "Reconocer, expresar arrepentimiento y enmendar."
+    },
+    {
+        "instruction": "¿Qué significa ADN?",
+        "input": "",
+        "output": "ADN significa ácido desoxirribonucleico."
+    },
+    {
+        "instruction": "Compare y contraste la crisis de los misiles de Cuba y la guerra de Vietnam.",
+        "input": "",
+        "output": "La Crisis de los Misiles de Cuba y la Guerra de Vietnam fueron dos de los conflictos más grandes y más mortíferos del siglo XX. La Crisis de los Misiles de Cuba implicó un enfrentamiento entre Estados Unidos y la Unión Soviética por las bases de misiles nucleares soviéticas en Cuba, mientras que la Guerra de Vietnam fue un conflicto militar prolongado en Indochina entre el Norte, que contaba con el apoyo de la Unión Soviética, y el Sur, que contaba con el apoyo de Estados Unidos. La Crisis de los Misiles de Cuba se desarrolló durante un período de 13 días en octubre de 1962, y su resolución se produjo en forma de un acuerdo diplomático. La Guerra de Vietnam duró 19 años, desde 1954 hasta 1973, con la firma de los Acuerdos de Paz de París. Si bien ambos conflictos estuvieron relacionados con la Guerra Fría, también fueron muy diferentes en términos de causas, objetivos, objetivos estratégicos y resultados. La Crisis de los Misiles de Cuba no resultó en ningún conflicto militar directo y se resolvió principalmente a través de la diplomacia y la decisión de retirar las armas nucleares de Cuba. Por otra parte, la guerra de Vietnam fue una serie prolongada de batallas que se saldaron con pérdidas significativas para ambos bandos. La guerra de Vietnam también tuvo un impacto significativo en los Estados Unidos, ya que puso de relieve las realidades de un conflicto prolongado y los límites de la intervención militar estadounidense. Además, la guerra de Vietnam también cambió drásticamente la forma en que la opinión pública veía a los militares y el uso de la fuerza."
+    },
+    {
+        "instruction": "Generar una lista de palabras aleatorias.",
+        "input": "",
+        "output": "estornudo, conflicto, antepasado, trueno, compañero, amuleto, forja, serpiente, magnificar, bufón, cascada, universo, oleada, náusea, oasis, anomalía, perseguir, rapto, pagoda, mosaico."
+    },
+    {
+        "instruction": "Transcribe la grabación en texto.",
+        "input": "Grabación sobre la historia de Waterloo",
+        "output": "La batalla de Waterloo, que se libró el 18 de junio de 1815, fue la última gran batalla de las guerras napoleónicas y marcó el fin del gobierno de Napoleón Bonaparte. La batalla se libró entre las fuerzas francesas de Napoleón Bonaparte y una fuerza aliada de tropas británicas, holandesas, belgas y prusianas, lideradas por el duque de Wellington. Se libró cerca de la ciudad de Waterloo, en los antiguos Países Bajos austríacos, hoy Bélgica. La batalla fue una derrota para las fuerzas de Napoleón y puso fin al gobierno de Napoleón sobre Francia. El propio Napoleón fue exiliado a Santa Elena, donde moriría en 1821. La batalla marcó el fin de la dominación francesa de Europa y el comienzo de un período de paz en la región. También fue la última gran batalla de las guerras napoleónicas y se recuerda como una de las batallas más importantes de la historia. La victoria de las fuerzas aliadas en Waterloo ayudó a poner fin a las ambiciones imperiales francesas en Europa. También estableció a los británicos como una de las naciones más poderosas de Europa. La batalla se libró con una combinación de tácticas de infantería, caballería y artillería, y mostró el comienzo de la naturaleza cambiante de la guerra. Aunque las fuerzas francesas superaban en gran medida a las aliadas, su error estratégico y táctico condujo a la derrota de la batalla. Esta derrota marcó el fin del poder imperial francés en Europa. El legado de Waterloo todavía se mantiene en pie hoy en día y consolidó la posición del Imperio británico para los siguientes cien años."
+    },
+    {
+        "instruction": "¿Quién es el pintor más famoso del mundo?",
+        "input": "",
+        "output": "El pintor más famoso del mundo es considerado generalmente el artista renacentista italiano Leonardo da Vinci. Entre sus obras se encuentran La Mona Lisa y La Última Cena, ambas consideradas obras maestras. Da Vinci también fue un maestro de la ciencia, ya que inventó el helicóptero y el tanque, entre otros inventos. También fue un prolífico músico, escultor y arquitecto. Su obra ha inspirado a generaciones de artistas y sigue siendo venerada en la actualidad."
+    },
+    {
+        "instruction": "Explique el concepto de par de torsión.",
+        "input": "",
+        "output": "El par de torsión es el par que se aplica a un dispositivo giratorio cuando el dispositivo experimenta resistencia por parte de los dientes de los engranajes que están conectados al dispositivo. El par de torsión se produce debido a la fuerza de reacción generada cuando los dientes de la transmisión por engranajes se engranan. Esta fuerza se empuja entre sí, lo que da como resultado una fuerza de arrastre que se transmite desde los engranajes al eje. La magnitud del par de torsión puede variar según el tamaño y la cantidad de dientes, así como el material y el diseño del engranaje. El par de torsión es indeseable en la mayoría de las aplicaciones motorizadas, ya que puede provocar una pérdida de eficiencia. Para reducir el par de torsión, los diseños de engranajes suelen ser simétricos o tienen ciertos perfiles de dientes que reducen la fuerza de contacto entre los dientes cuando entran en contacto entre sí."
+    },
+    {
+        "instruction": "Busque el punto de ebullición del agua.",
+        "input": "",
+        "output": "El punto de ebullición del agua es de 100 °C (212 °F) a presión atmosférica estándar. Cuando se calienta a presiones más altas, el punto de ebullición del agua aumenta. Por ejemplo, el agua hervirá a una temperatura de 115 °C (239 °F) a una presión atmosférica de 1 bar. A presiones más altas, como las que se experimentan en el fondo del océano, el punto de ebullición del agua puede alcanzar los 374 °C (705 °F)."
+    },
+    {
+        "instruction": "Describe la vida y el reinado del rey Carlos II.",
+        "input": "",
+        "output": "El rey Carlos II ascendió al trono de Inglaterra tras la Guerra Civil Inglesa y la muerte de su padre, Carlos I. Fue coronado en 1661 y su reinado duró hasta su muerte en 1685. Carlos II también fue un mecenas de las artes, trabajando con algunos de los más grandes pintores y escultores de su época. También fomentó el teatro y los deportes y se interesó por ciencias como la astronomía y la historia natural. Carlos II fue un gobernante moderado que respetó las libertades civiles y religiosas de sus ciudadanos. Era tolerante con otras religiones y dio a los judíos y católicos más derechos en el reino. Carlos II también fue un firme partidario de la Marina Real, que vio a Inglaterra aumentar su poder en el mundo. También promovió el desarrollo de la industria y el comercio, lo que ayudó a modernizar el país. El reinado de Carlos II fue un paso importante en la restauración de la monarquía de Inglaterra después de la agitación de la Guerra Civil Inglesa."
+    },
+    {
+        "instruction": "Encuentra el área de un círculo dado su radio.",
+        "input": "Radio = 4",
+        "output": "El área de un círculo con un radio de 4 es igual a 12,5664 unidades cuadradas. Esto se calcula utilizando la fórmula A = πr2, donde A es el área, π es aproximadamente igual a 3,1416 y r es el radio del círculo."
+    },
+    {
+        "instruction": "Identifica las líneas de longitud que dividen América del Norte y del Sur.",
+        "input": "",
+        "output": "La línea de longitud que divide América del Norte y América del Sur es la línea del Canal de Panamá. Esta línea de longitud atraviesa el istmo de Panamá y separa América del Sur de América Central. Tiene una longitud total de aproximadamente 800 km (500 mi) y se completó en 1914. El Canal de Panamá es una importante ruta de navegación y sirve como vía fluvial internacional que conecta el mar Caribe con el océano Pacífico."
+    },
+    {
+        "instruction": "Explicar el proceso de respiración celular en las plantas.",
+        "input": "",
+        "output": "La respiración celular en las plantas es un proceso complejo en el que la planta convierte la glucosa en energía utilizable. El proceso comienza cuando la planta absorbe dióxido de carbono del medio ambiente y lo combina con agua para formar moléculas de glucosa utilizando la energía de la luz solar. Esta glucosa luego se descompone en moléculas más simples de dióxido de carbono y agua. Durante este proceso, la energía liberada se utiliza para producir moléculas de trifosfato de adenosina (ATP). La planta utiliza el ATP para impulsar otros procesos, como el crecimiento y la reproducción. Además, el ATP también se puede descomponer aún más para producir energía térmica, que ayuda a mantener la temperatura de la planta. Las moléculas de dióxido de carbono y agua producidas en el proceso luego se liberan nuevamente al medio ambiente para completar el ciclo."
+    },
+    {
+        "instruction": "Reescribe la siguiente oración usando voz activa.",
+        "input": "El capitán leyó la noticia.",
+        "output": "El capitán leyó el informe de noticias."
+    },
+    {
+        "instruction": "Generar una lista de adjetivos que describan a una persona como valiente.",
+        "input": "",
+        "output": "Valiente, heroico, audaz, vigoroso, valeroso, resuelto, intrépido, audaz, bravo, atrevido, tenaz, valeroso, valiente, de corazón valiente, valeroso, galante, intrépido, impávido, enérgico, temerario."
+    },
+    {
+        "instruction": "Describa las consecuencias de la deforestación.",
+        "input": "",
+        "output": "La deforestación es el proceso de talar y eliminar los bosques. Las consecuencias de la deforestación pueden incluir la erosión del suelo, la reducción de la calidad del agua, la disminución de la biodiversidad, el aumento del dióxido de carbono en la atmósfera y la pérdida del hábitat para la vida silvestre. La erosión del suelo se produce cuando se eliminan los árboles que ayudan a retener el agua y el suelo, lo que hace que las partículas del suelo se arrastren. Esto puede provocar la sedimentación en ríos y arroyos, lo que afecta la calidad del agua y provoca inundaciones. Además, cuando se eliminan los árboles, la vida silvestre pierde su hábitat. Esto puede poner en peligro la extinción de las especies, lo que conduce a una mayor pérdida de biodiversidad. La deforestación también puede provocar un aumento del dióxido de carbono en la atmósfera, ya que hay menos árboles para absorber el gas durante la fotosíntesis, lo que puede contribuir al cambio climático."
+    },
+    {
+        "instruction": "Desarrollar un plan para reducir el consumo de electricidad en una casa.",
+        "input": "",
+        "output": "Un plan para reducir el consumo de electricidad en el hogar puede incluir distintas estrategias, como reemplazar bombillas ineficientes por LED de bajo consumo, desenchufar electrodomésticos y aparatos electrónicos cuando no se utilicen, utilizar luz natural en lugar de luces eléctricas siempre que sea posible, utilizar un grifo sin contacto para reducir el uso del calentador de agua, utilizar un termostato inteligente para controlar y ajustar las temperaturas automáticamente, instalar un calentador de agua solar y apagar los aparatos electrónicos cuando no se utilicen. Además, asegurarse de instalar y sellar correctamente las ventanas y puertas para reducir las fugas de aire también puede ayudar a reducir el consumo de electricidad."
+    },
+    {
+        "instruction": "Ordene las palabras en la oración dada para formar una oración gramaticalmente correcta.",
+        "input": "Rápidamente el zorro marrón saltó",
+        "output": "El veloz zorro marrón saltó rápidamente."
+    },
+    {
+        "instruction": "Analice el texto dado en función de su tono.",
+        "input": "El mundo se ha visto enormemente afectado por la pandemia de COVID-19 y ha cambiado drásticamente nuestras vidas.",
+        "output": "El tono del texto es de preocupación y de reconocimiento de los dramáticos efectos de la pandemia de COVID-19 en el mundo. Es un reconocimiento de la conmoción que ha causado el virus y de que nuestras vidas han cambiado drásticamente."
+    },
+    {
+        "instruction": "Utilice los datos dados para calcular la mediana.",
+        "input": "[2, 3, 7, 8, 10]",
+        "output": "La mediana de los datos dados es 7."
+    },
+    {
+        "instruction": "Reescribe el párrafo dado en una forma más corta y fácil de entender.",
+        "input": "Aunque se acepta generalmente que Internet nos ha permitido conectarnos con personas de todo el mundo, todavía hay personas que no están familiarizadas con sus funciones básicas, que no entienden por qué se ha vuelto tan común o cuáles son sus verdaderas capacidades.",
+        "output": "Internet nos ha permitido conectarnos globalmente, aunque algunas personas no están familiarizadas con sus funciones, no comprenden su uso generalizado y no conocen todo su potencial."
+    },
+    {
+        "instruction": "Diseña un logotipo para un sitio web sobre reciclaje.",
+        "input": "",
+        "output": "El logotipo debe incluir un motivo verde que sea reconocible y fácil de recordar, como un símbolo de reciclaje o una representación estilizada de un contenedor de reciclaje. El logotipo también debe incluir texto que comunique el propósito del sitio web, como \"Reciclaje\" o \"Sea ecológico\"."
+    },
+    {
+        "instruction": "Genera un poema que exprese alegría.",
+        "input": "",
+        "output": "La alegría fluye a través de mí como un río claro,\ntrayendo risas y dicha a mi alma para escuchar.\n\nEl mundo es brillante y maravilloso, puedo verlo,\nhaciendo de cada momento algo feliz y libre.\n\nMi corazón se siente ligero, mis preocupaciones han volado,\nmientras descubro lo que la felicidad me da solo a mí.\n\nAbro mis brazos y acepto la alegría,\ndando vida a mi canción, tan dulce como un juguete.\n\nCada momento es un regalo precioso,\nque saboreo y nunca dejo a la deriva."
+    },
+    {
+        "instruction": "Convierte la ecuación dada en una expresión algebraica.",
+        "input": "3x+5y=9",
+        "output": "3x + 5y - 9 = 0"
+    },
+    {
+        "instruction": "Piense en posibles soluciones para reducir la contaminación del agua.",
+        "input": "",
+        "output": "- Implementar regulaciones más estrictas sobre la eliminación de desechos industriales\n- Aumentar el uso de tecnología verde en el tratamiento de aguas residuales\n- Ofrecer incentivos a las empresas que reduzcan su consumo de agua y la generación de desechos\n- Educar a los ciudadanos sobre la conservación del agua y la prevención de la contaminación\n- Ofrecer programas de reciclaje para reducir los desechos plásticos\n- Reemplazar los plásticos desechables con alternativas biodegradables\n- Mejorar los sistemas de alcantarillado\n- Reintroducir especies vegetales nativas\n- Fomentar humedales artificiales e infraestructura verde\n- Proporcionar sistemas de filtración en plantas de tratamiento de agua\n- Implementar mejores prácticas para la escorrentía agrícola\n- Aumentar la investigación y el monitoreo de la calidad del agua\n- Establecer zonas de amortiguación entre los entornos acuáticos y las actividades terrestres."
+    },
+    {
+        "instruction": "Explique por qué la definición dada es incorrecta.",
+        "input": "Un topo es un animal que vive bajo tierra.",
+        "output": "La definición es errónea porque el topo es en realidad un pequeño mamífero que vive sobre la tierra y se alimenta de insectos. Se distingue por su hocico largo y sus patas anchas, parecidas a remos. Sin embargo, suele cavar madrigueras en las que vive y se refugia."
+    },
+    {
+        "instruction": "La variable x se define como “4x + 2y = 10”. Halla el valor de x.",
+        "input": "",
+        "output": "El valor de x es 2. Para encontrar el valor, simplifica la ecuación restando 2y de ambos lados, obteniendo 4x = 10; dividiendo ambos lados por 4, obteniendo x = 2/4, que es igual a 2."
+    },
+    {
+        "instruction": "Escribe un párrafo breve sobre el tema dado.",
+        "input": "La importancia de utilizar energía renovable",
+        "output": "El uso de energías renovables está adquiriendo cada vez mayor relevancia e importancia a medida que el mundo busca soluciones para combatir el cambio climático. Las fuentes de energía renovables, como la solar, la eólica y la hidroeléctrica, son sostenibles y tienen un impacto ambiental mucho menor que las fuentes de energía tradicionales, como el carbón y el petróleo. El cambio a las energías renovables puede reducir las emisiones de carbono, mejorar la calidad del aire, disminuir la dependencia de recursos no renovables y proporcionar un futuro energético estable y seguro. La energía renovable es esencial para lograr un futuro sostenible y debería ser una parte importante de la cartera energética de cualquier país."
+    },
+    {
+        "instruction": "Explique el concepto de inteligencia artificial en términos simples.",
+        "input": "",
+        "output": "La inteligencia artificial (IA) es la capacidad de las máquinas y las computadoras para tomar decisiones y completar tareas similares a las que pueden hacer los humanos. La IA puede aprender de los datos, reconocer patrones y hacer predicciones. La tecnología de IA puede automatizar procesos tediosos y complejos, lo que ayuda a reducir el esfuerzo y los errores humanos y permite tomar decisiones más precisas y eficientes. La IA se puede utilizar en una amplia gama de aplicaciones, desde la robótica y los vehículos autónomos hasta la atención médica y las finanzas. Se está convirtiendo cada vez más en una parte integral de la vida cotidiana."
+    },
+    {
+        "instruction": "Diseñar una aplicación para una empresa de reparto.",
+        "input": "",
+        "output": "La aplicación debería permitir a los clientes pedir artículos a empresas locales y tiendas cercanas, realizar solicitudes de entrega con requisitos de entrega detallados y realizar un seguimiento de sus pedidos. También debería permitir a los clientes encontrar y pagar fácilmente los servicios. La aplicación debería permitir a las empresas gestionar pedidos, realizar un seguimiento de las entregas y los conductores, establecer límites de entrega y fijar precios. También debería tener funciones que ayuden a las empresas a promocionar sus productos y servicios, así como opciones para proporcionar comentarios y asistencia a los clientes."
+    },
+    {
+        "instruction": "Resume el pasaje dado.",
+        "input": "Un estudio reciente demostró que el cambio climático global es uno de los desafíos más importantes que enfrenta el mundo hoy en día. Las consecuencias del calentamiento global incluyen el aumento del nivel del mar, fenómenos meteorológicos extremos y pérdida de biodiversidad. El cambio climático es causado por actividades humanas como la quema de combustibles fósiles y, si no se controla, tendrá efectos devastadores a largo plazo en el planeta.",
+        "output": "Un estudio reciente reveló que el cambio climático global es uno de los problemas más acuciantes del mundo. Además del aumento del nivel del mar, los fenómenos meteorológicos extremos y la pérdida de biodiversidad, es causado en gran medida por actividades humanas como la quema de combustibles fósiles. Si no se controla, el cambio climático tendrá consecuencias devastadoras y de gran alcance."
+    },
+    {
+        "instruction": "Extraer los hechos del párrafo.",
+        "input": "La educación en línea sigue ganando popularidad tanto entre las escuelas como entre los estudiantes. Sus ventajas son, en general, los menores costos, el menor compromiso y la posibilidad de estudiar en el momento, lugar y ritmo que más le convenga al estudiante.",
+        "output": "- La educación en línea es cada vez más popular.\n- Tiene varias ventajas, como costos más bajos, menor compromiso y la posibilidad de estudiar a su propio ritmo y tiempo."
+    },
+    {
+        "instruction": "Edite la siguiente oración para hacerla más concisa.",
+        "input": "Corrió a la parada de autobús para coger el autobús que llegaría en cinco minutos.",
+        "output": "Corrió hacia la parada del autobús, que debía llegar en cinco minutos."
+    },
+    {
+        "instruction": "Generar un poema con 10 líneas.",
+        "input": "",
+        "output": "La luz del atardecer brilla en la orilla\nSuavemente las olas resuenan alrededor y más\nMientras disfruto del sol, mis preocupaciones se han ido\nEl sonido de las gaviotas que ahora tontamente ignoro\nLa arena brillante, me llama con una súplica silenciosa\nEl agua de mar brillante, fresca al tacto y refrescantemente libre\nLa tarde trae paz, pero no puedo encontrarla\nPero tal vez en la mañana habrá tiempo para mí\nMi paz embotellada, la descorcho y la sirvo\nEl sonido del océano, me arrulla aún más\nY por un momento cierro los ojos y contemplo\nLa inmensidad del océano, a mi alma ahora me desvelo."
+    },
+    {
+        "instruction": "Convertir de grados Celsius a Fahrenheit.",
+        "input": "Temperatura en Celsius: 15",
+        "output": "Temperatura en grados Fahrenheit: 59"
+    },
+    {
+        "instruction": "Ordene los números dados en orden ascendente.",
+        "input": "2, 4, 0, 8, 3",
+        "output": "0, 2, 3, 4, 8"
+    },
+    {
+        "instruction": "Calcular la superficie total de un cubo con una longitud de lado de 5 cm.",
+        "input": "",
+        "output": "Área total de la superficie del cubo: 150 cm^2"
+    },
+    {
+        "instruction": "¿Cuál es la fuerza sobre una masa de 1 kg debido a la fuerza gravitacional?",
+        "input": "",
+        "output": "La fuerza sobre una masa de 1 kg debido a la fuerza gravitacional es 9,8 N."
+    },
+    {
+        "instruction": "Proporcione un ejemplo de una práctica cultural.",
+        "input": "",
+        "output": "Un ejemplo de práctica cultural es la ceremonia del té japonesa."
+    },
+    {
+        "instruction": "Dado un conjunto de números, encuentre el valor máximo.",
+        "input": "Conjunto: {10, 3, 25, 6, 16}",
+        "output": "El valor máximo es 25."
+    },
+    {
+        "instruction": "Da dos ejemplos de un líquido.",
+        "input": "",
+        "output": "Dos ejemplos de líquidos son el agua y el aceite."
+    },
+    {
+        "instruction": "¿Cuál es el producto de 6 y 2?",
+        "input": "",
+        "output": "El producto de 6 y 2 es 12."
+    },
+    {
+        "instruction": "¿Qué tipo de planta es una col mofeta?",
+        "input": "",
+        "output": "La col mofeta es un tipo de planta con flores perennes."
+    },
+    {
+        "instruction": "Convierte el número binario dado a su equivalente decimal.",
+        "input": "101101",
+        "output": "El equivalente decimal de 101101 es 45."
+    },
+    {
+        "instruction": "Nombra dos tipos de biomas desérticos.",
+        "input": "",
+        "output": "Hay dos tipos de biomas desérticos: los desiertos xéricos y los subpolares."
+    },
+    {
+        "instruction": "Dada una oración, conviértala en voz pasiva.",
+        "input": "El perro le ladró al gato callejero.",
+        "output": "El perro le ladró al gato callejero."
+    },
+    {
+        "instruction": "Transforma la siguiente oración en voz pasiva",
+        "input": "Compré un libro",
+        "output": "Me compré un libro."
+    },
+    {
+        "instruction": "Crear un diálogo entre dos personas que están discutiendo un fenómeno científico.",
+        "input": "Energía hidroeléctrica",
+        "output": "Persona 1: ¿Sabías que ahora se utiliza la energía hidroeléctrica para generar electricidad?\nPersona 2: ¿En serio? ¡Es increíble! ¿Cómo funciona?\nPersona 1: Bueno, la energía hidroeléctrica utiliza la energía del agua en movimiento para generar electricidad. Al capturar y aprovechar la energía del agua que cae o fluye, la energía hidroeléctrica se puede utilizar para generar electricidad de manera eficiente."
+    },
+    {
+        "instruction": "Identifica el adverbio más adecuado para la siguiente oración",
+        "input": "Ella trabaja",
+        "output": "Ella trabaja diligentemente."
+    },
+    {
+        "instruction": "Encuentra la idea principal del siguiente pasaje",
+        "input": "El cambio climático es un problema mundial cada vez más polémico. Ya está teniendo efectos drásticos en el medio ambiente y en las vidas humanas. Ya estamos viendo un aumento de los fenómenos meteorológicos extremos y del nivel del mar, dos fenómenos que tienen un gran impacto en el planeta.",
+        "output": "La idea principal del pasaje es que el cambio climático es un problema global que está teniendo un efecto perjudicial sobre el medio ambiente y ha provocado un aumento de los fenómenos meteorológicos extremos y el aumento del nivel del mar."
+    },
+    {
+        "instruction": "Analiza el tono de las siguientes oraciones",
+        "input": "Estoy muy enojado contigo ahora mismo",
+        "output": "El tono de las frases es colérico y acusatorio."
+    },
+    {
+        "instruction": "Construya un argumento para defender la siguiente afirmación",
+        "input": "Las fuentes de energía alternativas son fundamentales para resolver la crisis climática",
+        "output": "Las fuentes de energía alternativas son absolutamente vitales para mitigar los efectos más perjudiciales del cambio climático. A medida que el mundo abandona los combustibles fósiles y adopta fuentes de energía más sostenibles, como la eólica, la solar y la hidroeléctrica, podemos reducir la cantidad de gases de efecto invernadero en la atmósfera y evitar un mayor calentamiento de nuestro planeta. Además, el uso de fuentes de energía renovables y alternativas creará miles de puestos de trabajo y puede ayudar a crear una economía sana y estable. Invertir en fuentes de energía alternativas es una decisión acertada y un paso necesario si queremos abordar eficazmente la crisis climática."
+    },
+    {
+        "instruction": "Convierte la siguiente oración al tiempo presente continuo",
+        "input": "Él lee libros",
+        "output": "Él está leyendo libros."
+    },
+    {
+        "instruction": "Dé un ejemplo de una metáfora que utilice el siguiente objeto",
+        "input": "Estrellas",
+        "output": "Las estrellas eran diamantes centelleantes en el cielo nocturno."
+    },
+    {
+        "instruction": "Describe a la siguiente persona",
+        "input": "John",
+        "output": "John es un hombre alto, de cabello oscuro, con una sonrisa amable y un brillo en los ojos. Tiene un carácter amable y afectuoso, y siempre se esfuerza por comprender a los demás. Le apasiona aprender y explorar nuevos lugares, experiencias y culturas."
+    },
+    {
+        "instruction": "Construya un problema matemático con los siguientes números",
+        "input": "21, 4",
+        "output": "Si se reparten 21 dulces entre 4 personas ¿cuántos dulces le toca a cada persona?"
+    },
+    {
+        "instruction": "Intenta reducir la siguiente oración sin cambiar su significado.",
+        "input": "Cuando entró, despertó a todos.",
+        "output": "Despertó a todos al entrar."
+    },
+    {
+        "instruction": "Identifica las conjunciones en la siguiente oración",
+        "input": "Ella escribió una carta y la selló.",
+        "output": "Las conjunciones en la oración son \"y\"."
+    },
+    {
+        "instruction": "Reescribe la siguiente oración en tercera persona.",
+        "input": "Estoy ansioso",
+        "output": "Ella está ansiosa."
+    },
+    {
+        "instruction": "Generar una lista de ideas de negocio para un servicio de entrega de alimentos.",
+        "input": "",
+        "output": "- Ofrecer descuentos y programas de fidelización para clientes frecuentes.\n- Asociarse con restaurantes locales y promocionar su comida.\n- Capacitar al personal de entrega para que gestione los pedidos y brinde un buen servicio al cliente.\n- Utilizar aplicaciones móviles y sitios web para realizar pedidos.\n- Ofrecer diversas opciones de pago para los clientes.\n- Permitir que los clientes personalicen sus pedidos.\n- Empacar los alimentos en envases reciclables y compostables.\n- Lanzar un modelo de suscripción para clientes habituales.\n- Ofrecer servicios especiales como sugerencias de alimentos según las preferencias de los clientes.\n- Proporcionar entrega sin contacto y recogida en la acera.\n- Proporcionar servicios de catering para pedidos grandes y eventos especiales.\n- Utilizar el marketing online y las plataformas de redes sociales para llegar a más clientes.\n- Crear incentivos para animar a los clientes a probar nuevos platos.\n- Crear kits de comidas con todos los ingredientes necesarios y una receta.\n- Hacer uso de robots y drones de entrega de alimentos.\n- Ofrecer un sistema de puntos de fidelidad para los clientes.\n- Colaborar con los agricultores locales para obtener productos e ingredientes.\n- Ofrecer opciones vegetarianas, veganas y sin gluten.\n- Permitir que los clientes seleccionen la hora de entrega.\n- Implementar recomendaciones impulsadas por IA para los clientes."
+    },
+    {
+        "instruction": "Edite la siguiente oración para mejorar la claridad y el flujo.",
+        "input": "El restaurante tiene muy buena comida aunque los precios son un poco elevados.",
+        "output": "El restaurante ofrece excelente comida pero a un precio ligeramente más alto."
+    },
+    {
+        "instruction": "Imagina que estás hablando con un cliente que no está satisfecho con el producto que te compró. Elabora una respuesta que calme la situación.",
+        "input": "",
+        "output": "Lamento que no estés satisfecho con tu compra. Queremos que todos nuestros clientes estén satisfechos, por lo que me gustaría ofrecerte un reembolso completo, así como un descuento del 15 % para tu próxima compra. ¿Hay algo más que pueda hacer para solucionarlo?"
+    },
+    {
+        "instruction": "Explique el concepto de un algoritmo de ordenamiento de burbuja a una audiencia no técnica.",
+        "input": "",
+        "output": "Un algoritmo de ordenación de burbuja es un tipo de algoritmo de ordenación que se utiliza para ordenar elementos de una matriz. Funciona observando cada elemento de la matriz y comparándolo con el siguiente elemento. Si el primer elemento es más grande que el segundo, se intercambian. Este proceso se repite hasta que se ordena toda la matriz. Este tipo de ordenación es uno de los algoritmos de ordenación más simples, pero puede ser lento si la matriz tiene muchos elementos."
+    },
+    {
+        "instruction": "Clasifique el siguiente incidente como una infracción del protocolo. Escriba 1 si se trata de una infracción y 0 si no se trata de una infracción.",
+        "input": "Uso de una computadora portátil de la escuela para uso personal",
+        "output": "1"
+    },
+    {
+        "instruction": "Con la siguiente información, construya una historia creativa.",
+        "input": "Un arco y una flecha mágicos",
+        "output": "Érase una vez una joven llamada Alexa que tenía el don de un increíble arco y una flecha mágicos. Cada vez que tensaba el arco y dejaba volar una flecha, dondequiera que aterrizara, sucedía algo extraordinario. Las flores florecían, los océanos se calmaban y el sol brillaba más. El arco y la flecha de Alexa eran tan poderosos que podían hacer posibles incluso las cosas más imposibles. Un día, durante una gran tormenta, Alexa usó su arco y flecha mágicos para traer calma y armonía a su ciudad natal. Todo el pueblo la elogió y la celebró, y pronto se convirtió en un símbolo de esperanza y paz."
+    },
+    {
+        "instruction": "Generar una lista de métodos para reducir el desperdicio de alimentos.",
+        "input": "",
+        "output": "- Compra de forma más inteligente y compra solo lo que necesitas.\n- Guarda las sobras para más tarde y congélalas si es necesario. \n- Controla las fechas de vencimiento y consume los alimentos antes de que se echen a perder.\n- Participa en iniciativas comunitarias o públicas de intercambio de alimentos.\n- Haz abono con los restos de comida.\n- Reutiliza envases, frascos y bolsas.\n- Aprovecha los descuentos de los restaurantes para reducir los pedidos excesivos. \n- Dona alimentos con fechas de vencimiento cortas a los bancos de alimentos locales. \n- Compra más productos agrícolas que estén cerca de la fecha de vencimiento y prepáralos pronto.\n- Pide porciones pequeñas cuando salgas a comer fuera.\n- Infórmate y educa a los demás sobre el desperdicio de alimentos.\n- Planifica las comidas con anticipación y basa tu lista de compras en las comidas. \n- Almacena los alimentos correctamente para reducir el deterioro.\n- Asegúrate de que tu refrigerador esté a la temperatura adecuada.\n- Ten un sistema para hacer un seguimiento de las sobras en el refrigerador. \n- Come todas las partes comestibles de los alimentos, incluidos los tallos y las cáscaras.\n- Utiliza recetas creativas para utilizar todo el alimento.\n- Utilizar alimentos que de otro modo se desecharían para la alimentación animal.\n- Participar en campañas para hacer de la sostenibilidad alimentaria un tema de actualidad."
+    },
+    {
+        "instruction": "Proponga una idea para un coche autónomo.",
+        "input": "",
+        "output": "Mi idea para un coche autónomo es desarrollar un sistema de inteligencia artificial que utilice el aprendizaje automático para ayudar al coche a reconocer su entorno. El sistema de inteligencia artificial también podrá aprender de sus errores y aumentar su precisión. Además, el coche autónomo podrá detectar posibles peligros y advertir al conductor, o tomar medidas correctivas si es necesario. El coche también estará equipado con un botón de emergencia, en caso de que el conductor necesite tomar el control manual del vehículo. Además, el coche podrá aparcar de forma automática y podrá conducirse solo hasta una estación de carga cercana cuando la batería esté baja. Por último, el software podrá conectarse con los teléfonos inteligentes, de modo que el usuario pueda acceder a su sistema de navegación y a las opciones de entretenimiento incluso mientras está en movimiento."
+    },
+    {
+        "instruction": "Explique el concepto de un modelo de regresión lineal utilizando un lenguaje sencillo.",
+        "input": "",
+        "output": "Un modelo de regresión lineal es un tipo de modelo de aprendizaje automático que se puede utilizar para predecir o estimar el valor de una variable numérica continua a partir de un conjunto de variables de entrada. En este modelo, se ajusta una línea a un conjunto de puntos de datos de modo que se minimice la suma de la distancia al cuadrado de los puntos de datos desde la línea. Esta línea de mejor ajuste se puede utilizar luego para estimar el valor de la variable de salida en función de los valores de las variables de entrada."
+    },
+    {
+        "instruction": "Construya una lista de consejos para ayudar a reducir el estrés.",
+        "input": "",
+        "output": "- Tómate un tiempo para descansar cuando te sientas abrumado. \n- Hazte un tiempo para ti y aprende a relajarte. \n- Haz ejercicio con regularidad y duerme lo suficiente. \n- Escucha música que te guste o date un baño tibio. \n- Sigue una dieta saludable llena de vitaminas y minerales esenciales. \n- Busca el apoyo de tus amigos y familiares. \n- Prueba la aromaterapia o el yoga. \n- Haz algo creativo, como dibujar, pintar o escribir. \n- Participa en actividades que te brinden alegría y tranquilidad. \n- Evita las drogas o el alcohol en exceso. \n- Practica la respiración profunda y la relajación muscular progresiva. \n- Empieza un nuevo pasatiempo para mantenerte ocupado. \n- Divide las tareas grandes en tareas más pequeñas y manejables. \n- Practica el diálogo interno positivo para mantener la moral alta. \n- Habla con un terapeuta o un mentor de confianza si es necesario. \n- Hazte un tiempo para actividades divertidas y eventos sociales. \n- Prioriza las tareas y crea un cronograma semanal. \n- Crea un plan de acción e identifica soluciones a los problemas. \n- Aprende a perdonarte a ti mismo y a los demás."
+    },
+    {
+        "instruction": "Escribe una reseña de una película reciente que hayas visto.",
+        "input": "Parásitos (2019)",
+        "output": "Hace poco vi la película Parásitos, dirigida por Bong Joon-Ho, y me quedé absolutamente impresionado. Esta película es una mezcla magistral de géneros: es a la vez una comedia negra y un comentario sobre el clasismo, con un final inesperado. Las actuaciones son fantásticas, en particular Song Kang-ho como el jefe de familia pobre, y la fotografía es impresionante. La película tiene un equilibrio perfecto entre humor y drama que invita a la reflexión, y te hará hablar sobre el final durante días. En general, recomiendo Parásitos; es una película excepcional y una experiencia que no olvidarás fácilmente."
+    },
+    {
+        "instruction": "Crea una publicación en Twitter para promocionar tu nuevo producto.",
+        "input": "Mermelada totalmente natural de Alisha",
+        "output": "Presentamos la mermelada totalmente natural de Alisha, hecha a mano con amor y utilizando solo los mejores ingredientes. ¡Prepárese para disfrutar de un delicioso manjar que le dará a su paladar una explosión de sabor! Pruebe nuestros cinco increíbles sabores: fresa, arándano, melocotón, frambuesa y mora. ¡Compre ahora y disfrute de un refrigerio con el mundo! #snacktime #allnatural #jam #tastebuds #freshfruit #homemade #delicious #salttw"
+    },
+    {
+        "instruction": "Dada la siguiente entrada, clasifica el verbo como transitivo o intransitivo.",
+        "input": "mejorar",
+        "output": "Transitivo."
+    },
+    {
+        "instruction": "Generar una lista de estrategias de marketing para promocionar una nueva aplicación móvil.",
+        "input": "",
+        "output": "- Implementa campañas pagas en plataformas de redes sociales.\n- Utiliza el marketing de influencia.\n- Contacta a blogueros y sitios web de tecnología.\n- Comparte la aplicación de boca en boca entre amigos.\n- Crea videos de demostración y tutoriales para explicar las características de la aplicación.\n- Ofrece descuentos e incentivos especiales a los primeros usuarios.\n- Crea un sitio web básico para explicar el propósito y las características de la aplicación.\n- Aprovecha las técnicas de optimización de la tienda de aplicaciones.\n- Envía correos electrónicos y boletines informativos para informar a los nuevos usuarios sobre la aplicación.\n- Intenta obtener premios y buenas críticas en la tienda de aplicaciones.\n- Incluye el enlace de la aplicación en tu firma de correo electrónico.\n- Prueba con comunicados de prensa y campañas promocionales.\n- Anima a los usuarios a calificar y comentar la aplicación en la tienda de aplicaciones.\n- Aprovecha el contenido generado por los usuarios a tu favor.\n- Integra la aplicación con aplicaciones existentes o populares.\n- Realiza sorteos o concursos para impulsar la participación.\n- Presenta la aplicación en el sitio web y el blog de tu empresa.\n- Promocionar la aplicación de forma cruzada con otras aplicaciones, sitios web y plataformas de redes sociales. \n- Crear contenido promocional, como blogs y podcasts."
+    },
+    {
+        "instruction": "Reescribe la oración para proporcionar más claridad y fluidez.",
+        "input": "Tomar la decisión de alquilar una casa fue una elección acertada",
+        "output": "Alquilar una casa fue una decisión sabia."
+    },
+    {
+        "instruction": "Proporcione una descripción del siguiente segmento de clientes.",
+        "input": "Compradores en línea en EE. UU. de entre 18 y 25 años",
+        "output": "Este segmento de clientes está formado por compradores online en Estados Unidos de entre 18 y 25 años. Por lo general, son adultos jóvenes expertos en tecnología que prefieren comprar online por comodidad y variedad. Suelen comprar una variedad de artículos, desde ropa hasta productos electrónicos, y se sienten cómodos utilizando diferentes métodos de pago, como tarjetas de crédito o débito y billeteras digitales."
+    },
+    {
+        "instruction": "Diseñar un logotipo para una aplicación móvil.",
+        "input": "",
+        "output": "El diseño del logotipo debe ser simple, moderno y único. Debe capturar la esencia de la aplicación y comunicar sus funciones. El logotipo debe tener colores llamativos y llamativos, y el diseño debe poder adaptarse a distintos tamaños y plataformas, como sitios web y dispositivos móviles."
+    },
+    {
+        "instruction": "Generar una lista de nombres de países del hemisferio occidental.",
+        "input": "",
+        "output": "- Canadá\n- Estados Unidos \n- México \n- Brasil\n- Argentina \n- Chile \n- Colombia \n- Venezuela \n- Cuba\n- Jamaica \n- Ecuador\n- Perú \n- Uruguay\n- Paraguay \n- Costa Rica \n- Panamá \n- Honduras \n- Nicaragua\n- Guatemala"
+    },
+    {
+        "instruction": "Traduce la siguiente frase al francés.",
+        "input": "Te extraño",
+        "output": "Te pierdo."
+    },
+    {
+        "instruction": "Explique qué es una API.",
+        "input": "",
+        "output": "API significa Interfaz de Programación de Aplicaciones. Es un conjunto de instrucciones o instrucciones de programación que permiten que dos aplicaciones se comuniquen e intercambien datos entre sí. Las API proporcionan una forma para que los desarrolladores accedan y manipulen datos y servicios ofrecidos por otras aplicaciones o plataformas. Son una parte esencial del desarrollo web moderno y permiten a los desarrolladores desarrollar aplicaciones y sitios web complejos utilizando componentes modulares."
+    },
+    {
+        "instruction": "Calcula el área de un rectángulo con largo 10cm y ancho 5cm.",
+        "input": "",
+        "output": "El área del rectángulo es 50 cm2."
+    },
+    {
+        "instruction": "Encuentra la capital de España.",
+        "input": "",
+        "output": "La capital de España es Madrid."
+    },
+    {
+        "instruction": "Clasifique la siguiente afirmación como verdadera o falsa.",
+        "input": "La Corte Suprema es el tribunal más alto de los Estados Unidos.",
+        "output": "Verdadero."
+    },
+    {
+        "instruction": "Diseñar una base de datos para registrar los salarios de los empleados.",
+        "input": "",
+        "output": "La base de datos debe contener campos para el nombre del empleado, el puesto, el salario y la fecha. También debe incluir un campo para el gerente del empleado, de modo que los salarios se puedan asignar correctamente entre los departamentos. La base de datos también debe poder generar informes sobre los gastos salariales de los departamentos o de las personas."
+    },
+    {
+        "instruction": "Identifica el tema del siguiente libro.",
+        "input": "El libro trata sobre un pequeño pueblo del Medio Oeste y cómo la gente responde a una serie de tragedias y eventos inesperados que sacuden sus vidas.",
+        "output": "El tema del libro es la resiliencia frente a una tragedia inesperada y cómo la gente de un pequeño pueblo se une para superar tiempos difíciles."
+    },
+    {
+        "instruction": "Asigna cada palabra de la oración a continuación a su parte del discurso.",
+        "input": "Los gatitos a menudo corretean emocionados.",
+        "output": "Gatitos - Sustantivo \na menudo - Adverbio \ncorrer - Verbo \nalrededor - Preposición \ncon entusiasmo - Adverbio"
+    },
+    {
+        "instruction": "Generar una contraseña de 8 caracteres.",
+        "input": "",
+        "output": "e9gKyd2D"
+    },
+    {
+        "instruction": "Crear una página web sobre robótica.",
+        "input": "",
+        "output": "La página web debe incluir una introducción a la robótica, que abarque qué es y cómo se puede aplicar en diversas industrias. También debe incluir una sección sobre la historia de la robótica, una descripción general de los principales avances en el campo y las tendencias actuales. Se debe incluir información sobre los diferentes tipos de robots y sus aplicaciones, así como enlaces a recursos para realizar investigaciones adicionales."
+    },
+    {
+        "instruction": "¿Cuál es el tipo de contenido más compartido en las redes sociales?",
+        "input": "",
+        "output": "El tipo de contenido más compartido en las redes sociales son las imágenes."
+    },
+    {
+        "instruction": "¿Cuál es la idea principal de este texto?",
+        "input": "La industria de la robótica se ha convertido en uno de los sectores de más rápido crecimiento en la economía actual. La tecnología robótica se está aplicando en diversas industrias y aplicaciones, como la fabricación, la atención médica y la defensa.",
+        "output": "La idea principal de este texto es que la tecnología robótica se está utilizando en muchas industrias y aplicaciones diferentes y es un sector en rápido crecimiento de la economía actual."
+    },
+    {
+        "instruction": "Generar una lista de verbos en presente continuo.",
+        "input": "",
+        "output": "Correr, comer, dormir, llamar, enviar mensajes de texto, trabajar, leer, mirar, escribir, escuchar, jugar, cocinar, comprar, bailar, estudiar, caminar, conducir, volar, saltar, reír."
+    },
+    {
+        "instruction": "Piense en una frase o modismo que contenga la palabra \"dormir\".",
+        "input": "",
+        "output": "Duerme como un tronco."
+    },
+    {
+        "instruction": "Haz una predicción sobre lo que sucederá en el siguiente párrafo.",
+        "input": "Mary había estado viviendo en el pequeño pueblo durante muchos años y nunca había visto nada parecido a lo que se avecinaba.",
+        "output": "Parece que algo extraordinario y sin precedentes sucederá en el siguiente párrafo."
+    },
+    {
+        "instruction": "Generar un título para el siguiente artículo.",
+        "input": "Este artículo analiza el futuro de las fuentes de energía renovables en Estados Unidos.",
+        "output": "Las fuentes de energía renovables son el futuro de los EE.UU."
+    },
+    {
+        "instruction": "¿Qué tipo de puntuación se debe utilizar al final de la siguiente oración?",
+        "input": "Veamos el pájaro",
+        "output": "Se debe utilizar un signo de interrogación (?) al final de la oración."
+    },
+    {
+        "instruction": "Identifica la palabra incorrecta y sugiere una mejor versión.",
+        "input": "La camarera sirvió una hamburguesa enorme.",
+        "output": "La palabra incorrecta es \"humonguous\" y debería reemplazarse por \"huge\"."
+    },
+    {
+        "instruction": "Reescribe esta oración usando el punto de vista de tercera persona.",
+        "input": "Fui a la tienda.",
+        "output": "Él/ella fue a la tienda."
+    },
+    {
+        "instruction": "Cambia esta oración al tiempo futuro.",
+        "input": "Ella camina a la escuela.",
+        "output": "Ella caminará a la escuela."
+    },
+    {
+        "instruction": "Resume el siguiente artículo con tus propias palabras.",
+        "input": "Internet se ha convertido en una parte fundamental de la vida moderna y ha revolucionado la forma en que nos comunicamos y llevamos a cabo negocios. Ha permitido la difusión de ideas y experiencias de forma rápida, global y económica.",
+        "output": "Internet ha cambiado drásticamente nuestras vidas al permitirnos comunicarnos y realizar negocios de manera fácil y rápida en todo el mundo. Ha posibilitado la rápida difusión de ideas y experiencias en todo el mundo."
+    },
+    {
+        "instruction": "¿Cuál es el significado del siguiente modismo?",
+        "input": "Lueve a cántaros",
+        "output": "La expresión \"está lloviendo a cántaros\" significa que está lloviendo a cántaros."
+    },
+    {
+        "instruction": "Genera una oración utilizando las siguientes palabras en el orden correcto.",
+        "input": "casa en llamas",
+        "output": "La casa estaba en llamas."
+    },
+    {
+        "instruction": "¿La oración es gramaticalmente correcta?",
+        "input": "El niño estaba jugando con sus juguetes.",
+        "output": "Sí, la oración es gramaticalmente correcta."
+    },
+    {
+        "instruction": "Clasifique la relación entre Juan y María.",
+        "input": "Juan y María son hermanos.",
+        "output": "Juan y María son hermano y hermana."
+    },
+    {
+        "instruction": "Identifica el lenguaje utilizado en la oración dada.",
+        "input": "Es increible.",
+        "output": "La frase está en francés."
+    },
+    {
+        "instruction": "Generar un resumen del artículo dado.",
+        "input": "Entre 1989 y 2019, el tamaño de la economía estadounidense, medido en términos de producto interno bruto (PIB), aumentó más del doble. El crecimiento fue más rápido que en las dos décadas anteriores, impulsado en parte por la espectacular expansión del sector de la tecnología de la información en los años 1990 y principios de los años 2000, las ganancias en productividad de los trabajadores y la fuerte demanda de los consumidores, y las inversiones gubernamentales en investigación y desarrollo.",
+        "output": "La economía estadounidense duplicó su tamaño entre 1989 y 2019, en gran medida debido al auge del sector de la tecnología de la información, las mejoras en la productividad de los trabajadores y la demanda de los consumidores, y las inversiones gubernamentales. Este crecimiento fue más rápido que en las dos décadas anteriores."
+    },
+    {
+        "instruction": "Convierte la temperatura de Fahrenheit a Celsius.",
+        "input": "94F",
+        "output": "34,4 °C"
+    },
+    {
+        "instruction": "Construye una frase usando las palabras dadas",
+        "input": "Pandemia, desafío, acción",
+        "output": "Nuestra acción frente a la pandemia es el máximo desafío."
+    },
+    {
+        "instruction": "Encuentra los sinónimos de la siguiente palabra: 'Tenaz'.",
+        "input": "",
+        "output": "Persistente, tenaz, determinado, resuelto, firme, inquebrantable, inflexible, persistente, persistente."
+    },
+    {
+        "instruction": "Sugiera un buen restaurante.",
+        "input": "Los Ángeles, CA",
+        "output": "En Los Ángeles, CA, sugiero el restaurante italiano Rossoblu."
+    },
+    {
+        "instruction": "Calcular el área del triángulo.",
+        "input": "Base: 5cm; Altura: 6cm",
+        "output": "El área del triángulo es 15 cm²."
+    },
+    {
+        "instruction": "Reescribe la oración con palabras más descriptivas.",
+        "input": "El juego es divertido.",
+        "output": "El juego es emocionante y divertido."
+    },
+    {
+        "instruction": "Genera un deseo de cumpleaños creativo para un amigo.",
+        "input": "",
+        "output": "¡Feliz cumpleaños! Que este día tan especial te traiga alegría, risas y todas las bendiciones que mereces. ¡Que tengas un maravilloso año por delante!"
+    },
+    {
+        "instruction": "Acortar la segunda frase.",
+        "input": "El invierno suele ser la estación más fría del año. La nieve es un elemento habitual durante el invierno.",
+        "output": "El invierno es la estación más fría y suele ir acompañado de nieve."
+    },
+    {
+        "instruction": "Encuentra la solución a la ecuación cuadrática.",
+        "input": "3x² + 7x - 4 = 0",
+        "output": "La solución de la ecuación cuadrática es x = -4 y x = 1/3."
+    },
+    {
+        "instruction": "Encuentra el promedio de estos tres números.",
+        "input": "2, 5, 10",
+        "output": "El promedio de 2, 5, 10 es 5,67."
+    },
+    {
+        "instruction": "Reescribe la oración en un tiempo diferente.",
+        "input": "Él le pidió que lo acompañara a almorzar.",
+        "output": "Él le había pedido que lo acompañara a almorzar."
+    },
+    {
+        "instruction": "Clasifique los siguientes datos con tres etiquetas.",
+        "input": "fjsklfjdsklfjsklfjsklfjs",
+        "output": "Etiqueta 1: Datos de caracteres\nEtiqueta 2: Datos alfabéticos\nEtiqueta 3: Datos no alfabéticos"
+    },
+    {
+        "instruction": "Redacta una oración de cinco palabras que describa tu día.",
+        "input": "",
+        "output": "Hoy fue un día increíble."
+    },
+    {
+        "instruction": "Describe la siguiente pintura en una frase.",
+        "input": "Cuadro adjunto",
+        "output": "La pintura representa un paisaje extenso en un hermoso día con colinas onduladas y un río que serpentea a través del terreno."
+    },
+    {
+        "instruction": "Busca en la web y encuentra el título de la novela más larga.",
+        "input": "",
+        "output": "El título de la novela más larga es \"Gordale\", escrita por Carolyn Redfearn."
+    },
+    {
+        "instruction": "Cambie la siguiente oración de la forma singular a la forma plural.",
+        "input": "El gato está bebiendo.",
+        "output": "Los gatos están bebiendo."
+    },
+    {
+        "instruction": "Compila una lista de cinco estados de EE. UU. ubicados en el Medio Oeste.",
+        "input": "",
+        "output": "Los cinco estados de EE. UU. ubicados en el Medio Oeste son Illinois, Indiana, Michigan, Ohio y Wisconsin."
+    },
+    {
+        "instruction": "Analiza la siguiente oración y encuentra el objeto directo.",
+        "input": "Ella escribió un libro.",
+        "output": "El objeto directo de la oración es \"libro\"."
+    },
+    {
+        "instruction": "Durante la última reunión de miembros, cree una lista de 5 ideas para mejorar el club.",
+        "input": "",
+        "output": "En la última reunión de miembros, se sugirieron las siguientes 5 ideas para mejorar el club: 1. Aumentar la frecuencia de las reuniones, 2. Crear un programa de mentores, 3. Desarrollar un sitio web para publicitar el club, 4. Crear un presupuesto para financiar actividades, 5. Ofrecer incentivos para fomentar la participación."
+    },
+    {
+        "instruction": "Edite la siguiente oración para corregir los errores de gramática y sintaxis.",
+        "input": "Llegaste tarde a la fiesta",
+        "output": "Llegaste tarde a la fiesta."
+    },
+    {
+        "instruction": "Crea una pregunta que pueda responderse usando la siguiente oración.",
+        "input": "\"Fue un día hermoso\"",
+        "output": "¿Qué tipo de día fue?"
+    },
+    {
+        "instruction": "Escribe una definición sencilla de la palabra \"economía\".",
+        "input": "",
+        "output": "La economía es el estudio de cómo la sociedad utiliza sus recursos limitados para producir y distribuir bienes y servicios."
+    },
+    {
+        "instruction": "Encuentre el puntaje de corte para completar con éxito el examen",
+        "input": "El examen tenía 100 preguntas de opción múltiple con 4 opciones cada una.",
+        "output": "La puntuación de corte para aprobar con éxito el examen es 75."
+    },
+    {
+        "instruction": "Genere una oración temática para introducir el siguiente texto.",
+        "input": "En medio de la creciente violencia en la región, muchos civiles están huyendo de sus hogares en busca de seguridad.",
+        "output": "Debido a la creciente tensión y la violencia, innumerables civiles se ven obligados a abandonar sus hogares por temor a sus vidas."
+    },
+    {
+        "instruction": "Escribe una función para calcular el factorial de un número dado.",
+        "input": "",
+        "output": "def factorial(n):\nsi n == 0:\ndevuelve 1\ndevuelve n * factorial(n-1)"
+    },
+    {
+        "instruction": "Escriba una función para convertir una cadena dada a mayúsculas.",
+        "input": "",
+        "output": "def toUpperCase(str):\nreturn str.upper()"
+    },
+    {
+        "instruction": "¿Extraer los números enteros positivos de una matriz?",
+        "input": "arreglo = [5,-2,8,-7,3,-1,0,5]",
+        "output": "[5, 8, 3, 5]"
+    },
+    {
+        "instruction": "Calcular la raíz cuadrada de un número dado.",
+        "input": "",
+        "output": "def sqrt(n):\nbajo = 0\nalto = n\n\nmientras bajo <= alto:\nmedio = (bajo + alto) // 2\nsi medio * medio == n:\ndevuelve medio\nelif medio * medio < n:\nbajo = medio + 1\nde lo contrario:\nalto = medio - 1\n\ndevuelve bajo - 1"
+    },
+    {
+        "instruction": "Invertir una lista enlazada.",
+        "input": "",
+        "output": "def reverse(cabeza): \nprev = None\ncur = cabeza \n\nwhile cur:\nnext = cur.next\ncur.next = prev \nprev = cur \ncur = next\ncabeza = prev\n\nreturn cabeza"
+    },
+    {
+        "instruction": "¿Calcular la subsecuencia creciente más larga de una matriz dada?",
+        "input": "arreglo = [7, 10, 8, 11, 9, 5]",
+        "output": "[7, 8, 9, 11]"
+    },
+    {
+        "instruction": "¿Diseñar un algoritmo para encontrar el beneficio máximo de una compra y venta de acciones?",
+        "input": "",
+        "output": "def maxProfit(precios):\nmin_price = float('inf')\nmax_profit = 0\n\npara precio en precios:\nmin_price = min(min_price, price) \nprofit = precio - min_price\nmax_profit = max(max_profit, profit)\n\nreturn max_profit"
+    },
+    {
+        "instruction": "Dadas dos cadenas, verifique si una cadena es una rotación de otra.",
+        "input": "s1 = ‘botella de agua’\ns2 = ‘botelladeagua’",
+        "output": "def isRotation(s1, s2):\nif len(s1) != len(s2):\nreturn Falso\n\ns3 = s1 + s1 \nreturn s3.find(s2) != -1"
+    },
+    {
+        "instruction": "Dada una matriz de números enteros, devuelve el primer elemento repetido.",
+        "input": "arreglo = [3, 6, 7, 1, 4, 6, 7]",
+        "output": "6"
+    },
+    {
+        "instruction": "¿Encuentre los dos elementos que no se repiten en una matriz de elementos repetidos?",
+        "input": "arreglo = [2, 3, 7, 9, 11, 2, 3, 11]",
+        "output": "7, 9"
+    },
+    {
+        "instruction": "Dado un árbol binario, ¿comprobar si es un árbol binario de búsqueda?",
+        "input": "",
+        "output": "def isBST(root):\nsi root es None : \ndevuelve True\n\nsi root.left no es None y root.left.val > root.val: \ndevuelve False\n\nsi root.right no es None y root.right.val < root.val: \ndevuelve False\n\ndevuelve isBST(root.left) y isBST(root.right)"
+    },
+    {
+        "instruction": "¿Encuentre el beneficio máximo que se puede obtener de una secuencia dada de transacciones?",
+        "input": "arreglo = [100, 180, 260, 310, 40, 535, 695]",
+        "output": "865"
+    },
+    {
+        "instruction": "Calcular la cantidad de dinero en una cuenta bancaria con un depósito inicial de $100 y una tasa de interés del 6%, compuesta anualmente",
+        "input": "",
+        "output": "Al final del primer año, el monto en la cuenta bancaria sería de $106. En el segundo año, el monto sería de $112,36 y al final del décimo año, el monto sería de $160,54. Esto ilustra el poder del interés compuesto."
+    },
+    {
+        "instruction": "Dame una descripción detallada del marco de un servicio web.",
+        "input": "",
+        "output": "Un servicio web debe estar compuesto por varios componentes: una aplicación cliente, un conjunto de API (interfaz de programación de aplicaciones) para interactuar con el cliente, una base de datos para almacenar datos, un servidor para ejecutar el servicio y una aplicación del lado del cliente para procesar las solicitudes. La API debe estar diseñada con una arquitectura RESTful y el servidor debe estar construido con un lenguaje como Python o Ruby. La base de datos debe estar adaptada a los datos que se necesitan almacenar y la aplicación del lado del cliente debe manejar la respuesta de la API. Además, por motivos de seguridad, ciertas solicitudes deben estar cifradas o protegidas mediante mecanismos de autenticación."
+    },
+    {
+        "instruction": "Crea una línea de tiempo que describa la historia de Internet.",
+        "input": "",
+        "output": "1968: Se crea ARPANET, la primera red de Internet.\n1973: Se crea TCP/IP, que permite a las computadoras comunicarse entre sí.\n1983: Se crea DNS para simplificar el proceso de comunicación.\n\n1989: Se crea la World Wide Web, que da origen a la Internet pública.\n1995: Se desarrolla JavaScript, que introduce contenido dinámico en la Web.\n2001: Se lanza Wikipedia, que ofrece una enciclopedia en línea.\n2004: Se lanza Facebook, que crece rápidamente hasta alcanzar los mil millones de usuarios.\n2007: Apple presenta el iPhone, que convierte a los dispositivos móviles en algo común.\n2009: La computación en la nube comienza a revolucionar el almacenamiento de datos.\n\n2011: Se lanza HTML5, que fomenta experiencias web más ricas.\n2013: Surge la Internet de las cosas (IoT), que conecta docenas de dispositivos duraderos.\n\n2015: Se lanza la tecnología \"Voice first\", como Alexa de Amazon.\n2018: comienzan a implementarse las redes 5G, lo que permite velocidades de conexión más rápidas.\n2020: comienza a utilizarse la IA para impulsar asistentes domésticos como Alexa."
+    },
+    {
+        "instruction": "Parafrasea la siguiente oración",
+        "input": "Los científicos realizaron un riguroso experimento",
+        "output": "Los científicos realizaron un experimento exhaustivo."
+    },
+    {
+        "instruction": "Desarrollar una aplicación basada en web que haga lo siguiente",
+        "input": "Ordena las imágenes según categoría",
+        "output": "Esta aplicación basada en la web debe utilizar una base de datos para almacenar las imágenes y la información de categorización asociada. La aplicación debe permitir a los usuarios cargar imágenes y asignarles etiquetas. Además, debe haber una interfaz que proporcione la capacidad de buscar y filtrar las imágenes por etiquetas. Por último, la aplicación debe utilizar técnicas de visión artificial, como la detección de objetos y la clasificación de imágenes, para ordenar las imágenes en categorías."
+    },
+    {
+        "instruction": "Describa los pros y contras de la siguiente política",
+        "input": "Proporcionar educación universitaria gratuita",
+        "output": "Las ventajas de ofrecer educación universitaria gratuita incluyen hacer que la educación sea más accesible para personas de todos los orígenes, mejorar el acceso a profesionales capacitados, brindar igualdad de oportunidades para todos e impulsar la economía. Por otro lado, las desventajas podrían incluir un aumento de los impuestos y una mayor carga para el gobierno, una afluencia excesiva de graduados en ciertas profesiones, una disminución de la calidad de la educación y un mayor riesgo de masificación en ciertas universidades."
+    },
+    {
+        "instruction": "Diseña una publicación para una cuenta de redes sociales para promocionar el siguiente producto",
+        "input": "Batido de frutas frescas",
+        "output": "¡Presentamos nuestro nuevo y refrescante batido de frutas! Elaborado únicamente con las frutas más frescas, este batido es una forma deliciosa de mantenerte con energía y obtener tu dosis diaria de nutrientes. ¡Consigue el tuyo hoy! #smoothie #fruitsmoothie #refreshing"
+    },
+    {
+        "instruction": "Resume el siguiente artículo",
+        "input": "https://www.nytimes.com/2010/07/05/business/global/05phone.html",
+        "output": "En este artículo se analizan los teléfonos móviles y su influencia sin precedentes en distintos aspectos de la economía mundial. Tras analizar datos de varios países, el artículo concluye que los teléfonos móviles han permitido el crecimiento económico, han mejorado el acceso a los servicios financieros y han creado una plataforma para la innovación. Los teléfonos móviles también han ayudado a reducir la pobreza y la corrupción y han abierto la puerta a nuevos modelos de negocio."
+    },
+    {
+        "instruction": "Crea una descripción del trabajo para el siguiente rol",
+        "input": "Consultor de análisis de datos",
+        "output": "Buscamos un consultor de análisis de datos para respaldar nuestras operaciones. El consultor desarrollará estrategias para comprender, interpretar y actuar en función de los datos. El consultor debe tener experiencia en visualización de datos y desarrollo de paneles de control, aprendizaje automático y comunicación de datos a partes interesadas internas y externas. El candidato ideal tendrá excelentes habilidades para la resolución de problemas, estará orientado a los detalles y podrá trabajar con confianza con partes interesadas de distintos niveles."
+    },
+    {
+        "instruction": "Identifica el orden correcto para los siguientes comandos",
+        "input": "empacar, preparar, viajar",
+        "output": "El orden correcto es: preparar, empacar, viajar."
+    },
+    {
+        "instruction": "Cree una pregunta de encuesta para medir la satisfacción del cliente",
+        "input": "",
+        "output": "En una escala del 1 al 5, ¿qué tan satisfecho está usted con nuestros servicios?"
+    },
+    {
+        "instruction": "Crea una lista de 10 animales diferentes",
+        "input": "",
+        "output": "1. Tigre\n2. Elefante\n3. Chimpancé\n4. Gorila\n5. Lobo\n6. Zorro\n7. Canguro\n8. Erizo\n9. Puercoespín\n10. Castor."
+    },
+    {
+        "instruction": "Sugiera una buena idea para una sesión de fotos familiar.",
+        "input": "",
+        "output": "¿Qué tal una sesión de fotos en un parque o jardín con temática de picnic? Haz que la familia se vista con ropa y poses divertidas y extravagantes, y utiliza accesorios como muebles antiguos, accesorios para exteriores y decoraciones. Otra idea podría ser una sesión de fotos en una sala de juegos o en una galería de juegos con la familia jugando a juegos vestidos con disfraces a juego."
+    },
+    {
+        "instruction": "Crear una respuesta para el correo electrónico de un cliente sobre un problema de reembolso.",
+        "input": "Estimada [Empresa]:\n\nRecientemente compré un producto en su tienda y no estoy satisfecho con la calidad. Me gustaría solicitar un reembolso.",
+        "output": "Estimado [cliente]:\n\nGracias por informarnos sobre este problema. Lamentamos el problema con el producto. Procesaremos su solicitud de reembolso lo antes posible. Infórmenos si podemos ayudarlo con algo más. Gracias por su comprensión. Atentamente, [empresa]"
+    },
+    {
+        "instruction": "Resuma la noticia dada en una oración.",
+        "input": "En el último anuncio presupuestario, el Canciller prometió introducir una nueva prestación de empleo para ayudar a los empleados de pequeñas empresas.",
+        "output": "El gobierno ha anunciado una asignación de empleo para ayudar a los empleados de pequeñas empresas en su anuncio presupuestario más reciente."
+    },
+    {
+        "instruction": "Proporcione cinco adjetivos que describan un animal en particular.",
+        "input": "León",
+        "output": "Regio, poderoso, majestuoso, valiente, inteligente."
+    },
+    {
+        "instruction": "Reorganiza las palabras para crear una oración completa.",
+        "input": "Las criaturas submarinas son fascinantes.",
+        "output": "Fascinantes son las criaturas submarinas."
+    },
+    {
+        "instruction": "Escribe una historia que comience con la siguiente oración.",
+        "input": "Abrió la puerta y encontró una figura alta envuelta en sombras.",
+        "output": "Abrió la puerta con mano temblorosa, esperando encontrar a su amiga. En cambio, una figura alta envuelta en sombras estaba de pie en la puerta. Sorprendida por la presencia inesperada, dio un paso atrás y su corazón latió con fuerza. La figura no emitió ningún sonido y se quedó quieta, aparentemente perdida en sus pensamientos. Quiso hablar, pero antes de que pudiera pronunciar una palabra, la figura dio un paso adelante, revelando una sola rosa en su mano. Al tomar la rosa, sintió una abrumadora sensación de algo desconocido, algo que no podía explicar."
+    },
+    {
+        "instruction": "Convierte la oración dada en voz activa.",
+        "input": "Se vendieron ciento cincuenta libros.",
+        "output": "Alguien vendió ciento cincuenta libros."
+    },
+    {
+        "instruction": "Explicar por qué un tema determinado es importante.",
+        "input": "Protección ambiental",
+        "output": "La protección del medio ambiente es esencial para mantener la salud de nuestro planeta para las generaciones futuras. Las actividades humanas, como las emisiones, la agricultura y la deforestación, contribuyen al cambio climático, la contaminación del aire y del agua, la reducción de la biodiversidad y otras amenazas ambientales. Si damos prioridad a la protección del medio ambiente, podemos limitar la velocidad del daño ambiental y conservar los recursos naturales para nuestro propio uso y el de las generaciones futuras."
+    },
+    {
+        "instruction": "Describe el sonido del objeto dado.",
+        "input": "Carillón de viento",
+        "output": "Un carillón de viento produce un sonido tranquilo y melódico, con una mezcla de tonos agudos y graves. El sonido del carillón es como una suave brisa que refleja la atmósfera relajante de un día de verano."
+    },
+    {
+        "instruction": "Reescribe la oración dada usando una palabra diferente pero similar.",
+        "input": "Ella participó en el evento.",
+        "output": "Ella participó en el evento."
+    },
+    {
+        "instruction": "Clasifique la entrada dada como poema, historia o canción.",
+        "input": "Érase una medianoche lúgubre, mientras meditaba, débil y cansado.",
+        "output": "Poema"
+    },
+    {
+        "instruction": "Crea un título para la siguiente descripción.",
+        "input": "Una historia sobre el viaje de autodescubrimiento de una joven.",
+        "output": "El camino para encontrarme a mí mismo"
+    },
+    {
+        "instruction": "Reescribe la oración dada en un tono más formal.",
+        "input": "Tuve que ir a la tienda muy rápido.",
+        "output": "Tuve que hacer un viaje rápido a la tienda."
+    },
+    {
+        "instruction": "Escribe algunas frases sobre un personaje histórico determinado.",
+        "input": "Amelia Earhart",
+        "output": "Amelia Earhart fue una pionera de la aviación estadounidense y una figura reconocida en el ámbito de la aviación. Fue la primera mujer aviadora en cruzar en solitario el océano Atlántico. A pesar de las trágicas circunstancias, se la recuerda como un modelo inspirador y un símbolo de coraje, aventura y determinación. Sus logros revolucionarios traspasaron los límites de los roles de género e inspiraron a muchas personas."
+    },
+    {
+        "instruction": "Generar una lista de preguntas relacionadas con un tema determinado.",
+        "input": "Innovación",
+        "output": "1. ¿Cuáles son las tendencias más actuales en el campo de la innovación? \n2. ¿Qué aspectos de la innovación ofrecen el mayor potencial de éxito? \n3. ¿A qué desafíos se han enfrentado recientemente las empresas en relación con la innovación? \n4. ¿Qué estrategias pueden utilizar las empresas para impulsar la innovación? \n5. ¿Cómo han ayudado los avances tecnológicos a dar forma a nuevos modelos de innovación? \n6. ¿Qué enfoques singulares de la innovación han demostrado ser exitosos? \n7. ¿Qué principios guían los proyectos de innovación exitosos? \n8. ¿Qué oportunidades de innovación existen en los mercados emergentes? \n9. ¿De qué manera la colaboración fomenta la innovación? \n10. ¿Cómo se pueden aprovechar las ideas para promover la innovación?"
+    },
+    {
+        "instruction": "Crear un eslogan para un producto determinado.",
+        "input": "Merienda saludable",
+        "output": "Un bocado de bondad: ¡Snacks saludables para toda la familia!"
+    },
+    {
+        "instruction": "Clasifique el siguiente texto en una de las dos clases de sentimiento: positivo o negativo.",
+        "input": "No me gustó mucho el producto porque era demasiado lento y poco fácil de usar.",
+        "output": "Negativo."
+    },
+    {
+        "instruction": "Resume el párrafo en una oración.",
+        "input": "Al comprar muebles, es importante tener en cuenta el aspecto general del espacio. Esto significa que debes preguntarte si las piezas que estás seleccionando combinan bien con los muebles existentes y con el estilo general que imaginas que tendrá.",
+        "output": "Al seleccionar los muebles, piense en el mobiliario existente y el estilo deseado."
+    },
+    {
+        "instruction": "Haz la siguiente oración más concisa.",
+        "input": "Tengo un resfriado muy fuerte y me siento muy miserable.",
+        "output": "Tengo un fuerte resfriado y me siento miserable."
+    },
+    {
+        "instruction": "Transforme la siguiente oración en una pregunta de sí/no.",
+        "input": "Mañana va a llover.",
+        "output": "¿Va a llover mañana?"
+    },
+    {
+        "instruction": "Redacte un tweet que aborde el tema de la degradación ambiental.",
+        "input": "",
+        "output": "No podemos seguir desperdiciando recursos e ignorando la #DegradaciónAmbiental. Hagamos que nuestro planeta sea más verde y saludable para las generaciones futuras. #SalvemoselMedioAmbiente #ProtecciónAmbiental"
+    },
+    {
+        "instruction": "Reemplace las palabras subrayadas con sinónimos apropiados.",
+        "input": "Los ladrones delataron a sus socios.",
+        "output": "Los ladrones delataron a sus socios."
+    },
+    {
+        "instruction": "Corrige los errores gramaticales en la oración.",
+        "input": "Ella vino a la tienda para comprar suministros.",
+        "output": "Ella vino a la tienda para comprar suministros."
+    },
+    {
+        "instruction": "Identifica el tipo de relación entre las dos palabras en la oración.",
+        "input": "El coche pasó al camión.",
+        "output": "La relación entre las dos palabras de la oración es comparación."
+    },
+    {
+        "instruction": "Redacte una oración informativa explicando el término dado.",
+        "input": "Bonos verdes",
+        "output": "Los bonos verdes son instrumentos de deuda emitidos para financiar proyectos destinados a mitigar el cambio climático y promover el desarrollo sostenible."
+    },
+    {
+        "instruction": "Reescribe la siguiente oración sin cambiar el significado.",
+        "input": "El informe de ventas no era exacto.",
+        "output": "El informe de ventas era inexacto."
+    },
+    {
+        "instruction": "¿Cuál es el resultado de este código?",
+        "input": "x = [1, 2, 3, 4]\ny = [i**2 para i en x]",
+        "output": "y = [1, 4, 9, 16]"
+    },
+    {
+        "instruction": "Escribe una breve reseña de la novela \"El guardián entre el centeno\".",
+        "input": "",
+        "output": "Hace poco leí El guardián entre el centeno y me impresionó la capacidad de J.D. Salinger para captar las dificultades de la vida adolescente. Esta historia sobre el paso de la adolescencia a la adultez cuenta la historia del viaje de Holden Caulfield hacia la edad adulta, mientras lidia con los problemas de la identidad, la alienación y la desesperación. La novela logra arrojar luz sobre temas difíciles a través de su escritura humorística y vívida, lo que la convierte en una lectura agradable y que invita a la reflexión."
+    },
+    {
+        "instruction": "Identifica el siguiente animal.",
+        "input": "Tiene un pelaje grueso, una cola larga y orejas puntiagudas.",
+        "output": "El animal es un zorro."
+    },
+    {
+        "instruction": "Describe el impacto del coronavirus en la economía.",
+        "input": "",
+        "output": "El coronavirus ha tenido un gran impacto en la economía, causando disrupciones en sectores como el turismo, los viajes, la hostelería, el comercio minorista y otros. Estos sectores han experimentado una marcada disminución de la actividad, lo que ha provocado un aumento de los niveles de desempleo, un debilitamiento del mercado de valores y una disminución del gasto de los consumidores. Los cierres de empresas han sido generalizados y algunas incluso se han visto obligadas a cerrar sus puertas de forma permanente. Como resultado, los gobiernos han adoptado políticas fiscales y monetarias para ayudar a frenar la recesión económica."
+    },
+    {
+        "instruction": "¿Qué figura geométrica tiene 5 lados y 5 ángulos?",
+        "input": "",
+        "output": "La forma geométrica es un pentágono."
+    },
+    {
+        "instruction": "Generar un pitch para un producto nuevo y original.",
+        "input": "",
+        "output": "Presentamos el nuevo y revolucionario producto que está conquistando al mundo: ¡el SmartBat! El SmartBat es un dispositivo revolucionario que combina las características de un teléfono inteligente, un asistente de inteligencia artificial activado por voz y un sensor de movimiento en un práctico dispositivo con forma de murciélago. Con su interfaz intuitiva y su potente inteligencia artificial, el SmartBat es el compañero perfecto para cualquier persona que esté en movimiento y quiera mantenerse conectada e informada. Ya sea que esté en la oficina o en su casa, el SmartBat lo tiene cubierto con sus características innovadoras. Así que no espere, ¡obtenga su SmartBat hoy y lleve su vida al siguiente nivel!"
+    },
+    {
+        "instruction": "Componga un soneto sobre la belleza de la naturaleza.",
+        "input": "",
+        "output": "La belleza de la naturaleza es eternamente grandiosa,\nUna vista para maravillarse en toda la tierra.\nEl cielo arriba, la tierra abajo al alcance de la mano,\nTanto para ver, ningún ojo puede comprender.\n\nLos árboles que se extienden según la demanda del cielo,\nLa danza de las flores como una extraña banda,\nContempla el suave susurro del viento,\nMientras hace susurrar las hojas a las órdenes de la naturaleza.\n\nLos ríos que se pliegan, se precipitan y fluyen,\nHacia el mar como un dulce espectáculo discreto,\nEl sol, oculto en la niebla, qué resplandor glorioso,\nProyecta mientras su calor en su abrazo se almacena.\n\nOh, la belleza de la naturaleza, eternamente grandiosa,\nUna visión para inspirar, con una alegría que es grandiosa."
+    },
+    {
+        "instruction": "Reescribe la siguiente oración para que esté en voz activa.",
+        "input": "El problema lo está solucionando ella.",
+        "output": "Ella está resolviendo el problema."
+    },
+    {
+        "instruction": "Escribe una historia corta sobre un día en la vida de un ingeniero de software.",
+        "input": "",
+        "output": "John era ingeniero de software y había estado programando durante los últimos 5 años. Todos los días se despertaba temprano para afrontar el día que tenía por delante. Empezaba con un desayuno rápido antes de sumergirse en el mundo de la programación, creando nuevos proyectos y solucionando errores existentes. Después de unas horas de programación, se tomaba un descanso y almorzaba en su escritorio, discutiendo nuevas ideas con sus colegas y pensando en soluciones para los problemas complicados que habían encontrado. Llegaba la tarde y John se concentraba en su código, resolviendo los problemas más complejos mientras estaba atento a las posibles mejoras. Su día terminaba con un poco de lectura ligera, estudiando nuevos lenguajes de programación, para asegurarse de estar al día con los últimos avances de la industria. Y con eso, su día estaba completo."
+    },
+    {
+        "instruction": "¿Cuál es la diferencia entre un virus y un gusano?",
+        "input": "",
+        "output": "La principal diferencia entre un virus y un gusano es que un virus requiere la interacción del usuario para propagarse, mientras que un gusano puede propagarse de un equipo a otro por sí solo. Los virus pueden modificar archivos y dañar datos, mientras que los gusanos suelen estar diseñados para replicarse y propagarse a otros equipos. Los virus también pueden propagarse a otros equipos a través de medios y archivos infectados, mientras que los gusanos suelen aprovechar las vulnerabilidades de seguridad para propagarse."
+    },
+    {
+        "instruction": "Explicar el concepto de blockchain.",
+        "input": "",
+        "output": "La cadena de bloques es una tecnología de registro distribuido que se utiliza para almacenar y registrar transacciones. Se protege mediante una red de computadoras distribuidas por todo el mundo, lo que la hace segura y descentralizada, ya que no hay una autoridad central que controle los datos almacenados en ella. Cada \"bloque\" dentro de la cadena de bloques contiene un registro único de una transacción o evento que se registra en la cadena de bloques de manera criptográficamente segura. La cadena de bloques es inmutable, lo que significa que una vez que se registra una transacción, no se puede alterar ni eliminar, lo que proporciona un registro de información permanente y seguro."
+    },
+    {
+        "instruction": "¿Cuál es la contracción de \"they are\"?",
+        "input": "",
+        "output": "La contracción de \"ellos son\" es \"ellos son\"."
+    },
+    {
+        "instruction": "Crea una lista de artículos para un picnic.",
+        "input": "",
+        "output": "Una lista de artículos para picnic debe incluir elementos como: sándwiches, papas fritas, fruta, verduras, galletas saladas, untables, queso, bebidas y bocadillos. Los artículos opcionales pueden incluir cubiertos y platos, una manta para sentarse, bloqueador solar, sombreros y anteojos de sol, repelente de insectos, naipes o juegos de mesa, un frisbee o una pelota para jugar y bolsas de hielo si es necesario."
+    },
+    {
+        "instruction": "Encuentra el mínimo común múltiplo de dos números.",
+        "input": "36 y 87",
+        "output": "30932"
+    },
+    {
+        "instruction": "Clasifique el artículo dado como sentimiento positivo o negativo.",
+        "input": "El nuevo coche es una decepción. Los frenos son pésimos y cuestan demasiado para las prestaciones que ofrece.",
+        "output": "Negativo"
+    },
+    {
+        "instruction": "Convierte el siguiente número hexadecimal a octal.",
+        "input": "base de datos",
+        "output": "333"
+    },
+    {
+        "instruction": "Recopilar algunos datos recientes relacionados con las crecientes tasas de desempleo.",
+        "input": "",
+        "output": "Datos recientes sobre el aumento de las tasas de desempleo en Estados Unidos muestran que, desde el inicio del brote de coronavirus, la tasa de desempleo ha aumentado del 3,5% al ​​14,7%. Esta es la tasa de desempleo más alta desde la Gran Depresión. La Oficina de Estadísticas Laborales de Estados Unidos también informa que, desde abril de 2020, 43 millones de estadounidenses han solicitado el seguro de desempleo. \n\nLa Reserva Federal de Estados Unidos informó en junio de 2020 que el 40% de los hogares que ganaban menos de 40.000 dólares al año habían perdido un trabajo o habían experimentado una reducción de ingresos debido al COVID-19, mientras que el 23% de los hogares que ganaban más de 100.000 dólares habían experimentado pérdidas de trabajo o reducciones de ingresos."
+    },
+    {
+        "instruction": "Indique cómo los siguientes personajes de la novela reflejan el tema de “la influencia corruptora del poder”.",
+        "input": "Gregorio en Germinal de Zola",
+        "output": "Gregoire sirve como ejemplo de la influencia corruptora del poder en la novela Germinal. Como el único de los mineros que asciende a los escalones superiores de la compañía minera, Gregoire le da la espalda a sus antiguos compañeros a favor de promover sus propios intereses. Pasa de ser un minero leal y amable a un capataz insensible que disfruta aplastando el espíritu de los mineros y castigándolos por la más mínima de las ofensas. Su transformación es una cruda ilustración de cómo aquellos corrompidos por el poder tienen la capacidad de ser mucho más despiadados y crueles que antes, y su viaje encapsula el tema de \"la influencia corruptora del poder\"."
+    },
+    {
+        "instruction": "Reescribe la siguiente oración para evitar cualquier falacia lógica.",
+        "input": "Esta medicina curará todos tus problemas de salud; debes confiar en mí porque soy médico.",
+        "output": "Dada mi formación como médico, es probable que este medicamento proporcione un efecto beneficioso para la mayoría de los problemas de salud."
+    },
+    {
+        "instruction": "Nombra dos formas diferentes de reducir la pobreza en una comunidad.",
+        "input": "",
+        "output": "Dos formas diferentes de reducir la pobreza en una comunidad son desarrollar iniciativas de desarrollo económico para crear oportunidades de empleo y negocios, y aumentar el acceso a la atención médica y la educación para brindar a las personas las herramientas que necesitan para tener éxito."
+    },
+    {
+        "instruction": "Generar una oración que siga la estructura de: \"Todo ____ se basa en/con _____\"",
+        "input": "",
+        "output": "Todo éxito se basa en el trabajo duro y la dedicación."
+    },
+    {
+        "instruction": "Describe el principio de la Ley de Oferta.",
+        "input": "",
+        "output": "La ley de la oferta establece que, a medida que aumenta el precio de un producto o servicio, también aumenta la cantidad ofrecida al mercado, ya que los productores se ven incentivados por el aumento del potencial de ganancias. Del mismo modo, a medida que disminuye el precio de un producto o servicio, también disminuye la cantidad ofrecida al mercado debido a la disminución del potencial de ganancias."
+    },
+    {
+        "instruction": "Encuentra el área del trapezoide dado.",
+        "input": "Bases: 13 cm y 16 cm; Altura: 12 cm",
+        "output": "168 cm2"
+    },
+    {
+        "instruction": "Describe los temas presentes en el poema dado.",
+        "input": "Poema:\n\nSalimos a la noche\ndonde las estrellas lloran como sólo la soledad puede hacerlo\ny hacemos el amor en la oscuridad",
+        "output": "El poema \"We Step Out into the Night\" aborda temas como el amor, la soledad y la belleza del cielo nocturno. La imagen de estrellas llorando como solo la soledad puede hacerlo sugiere un sentimiento melancólico, lo que implica que el amor es necesario y deseable, pero también puede ser difícil o doloroso. Esto puede simbolizar la naturaleza transitoria de la vida y las dificultades de encontrar el propio lugar en el mundo."
+    },
+    {
+        "instruction": "Generar un poema haiku.",
+        "input": "",
+        "output": "El rocío sobre una hoja reluciente\nUna suave brisa de verano susurra\nCanto de cigarras cercanas"
+    },
+    {
+        "instruction": "Diseña un logotipo para una empresa de desarrollo web.",
+        "input": "",
+        "output": "Diseñe un logotipo que sea moderno y profesional. Utilice una combinación de azul, verde y naranja para la combinación de colores. El logotipo debe incluir un círculo abstracto en el centro, con dos triángulos a cada lado para representar el sitio web en construcción. Incluya el nombre de la empresa dentro del círculo o alrededor de los bordes. La fuente debe ser llamativa y legible. El logotipo debe ser simple, pero llamativo."
+    },
+    {
+        "instruction": "Comparar gatos y perros.",
+        "input": "",
+        "output": "Los perros y los gatos son mascotas muy queridas, pero tienen diferencias importantes. Los perros suelen ser más extrovertidos y enérgicos, mientras que los gatos se consideran más independientes. Los perros tienden a ser más sociables y activos, disfrutan de los paseos y juegan con otros animales. Los gatos, por otro lado, tienden a ser más solitarios y prefieren relajarse y acurrucarse en un lugar cálido. Los perros suelen requerir más cuidados y atención, mientras que los gatos son más autosuficientes. A pesar de estas diferencias, los gatos y los perros siguen siendo mascotas populares y adorables."
+    },
+    {
+        "instruction": "Clasifique este texto como ficción o no ficción.",
+        "input": "Se estima que el universo tiene alrededor de 13.800 millones de años.",
+        "output": "No ficción."
+    },
+    {
+        "instruction": "Nombra tres frutas que sean ricas en vitamina C.",
+        "input": "",
+        "output": "Naranjas, pomelos y limones."
+    },
+    {
+        "instruction": "Traduce esta frase del francés al inglés.",
+        "input": "J'aime faire de la randonnée.",
+        "output": "Me encanta hacer senderismo."
+    },
+    {
+        "instruction": "Generar el tercer término en la secuencia 2, 5, 9, 14.",
+        "input": "",
+        "output": "18"
+    },
+    {
+        "instruction": "¿Cuál es el propósito de la Contabilidad Financiera?",
+        "input": "",
+        "output": "El objetivo de la contabilidad financiera es proporcionar información relevante y precisa para ayudar a las entidades a tomar decisiones informadas y gestionar eficazmente sus finanzas. También proporciona un registro fiable de sus transacciones financieras, lo que resulta esencial para llevar adelante los negocios."
+    },
+    {
+        "instruction": "Describe una forma única de cocinar un bistec.",
+        "input": "",
+        "output": "Una forma única de cocinar un filete es al vacío. Este método cocina el filete lentamente en una bolsa sellada con sus propios jugos a baja temperatura. El filete se envasa al vacío y luego se cocina en un baño de agua a una temperatura precisa durante un período prolongado, lo que garantiza que esté completamente cocido pero aún tierno y jugoso."
+    },
+    {
+        "instruction": "Resume las ventajas de las energías renovables.",
+        "input": "",
+        "output": "Las fuentes de energía renovables, como la solar y la eólica, son limpias, sostenibles y abundantes. Reducen la contaminación del aire y del agua, ayudan a preservar ecosistemas valiosos y crean puestos de trabajo que no se pueden subcontratar. Las fuentes de energía renovables también tienen el potencial de reducir drásticamente las emisiones que provocan el calentamiento global y combatir el cambio climático, lo que las hace esenciales para el futuro de la humanidad y del planeta."
+    },
+    {
+        "instruction": "Identifica la palabra incorrecta en esta oración.",
+        "input": "La cantante cantó alegremente su solo.",
+        "output": "su"
+    },
+    {
+        "instruction": "Sugiera una cita poderosa.",
+        "input": "",
+        "output": "“Con el poder de la voluntad, todo es posible.” – Desconocido"
+    },
+    {
+        "instruction": "Ordene la siguiente lista en orden alfabético.",
+        "input": "Camuflaje, muebles, yeso",
+        "output": "Muebles, Camuflaje, Yeso"
+    },
+    {
+        "instruction": "¿Qué es un déficit comercial?",
+        "input": "",
+        "output": "A trade deficit is a situation in which a country imports more goods than it exports. It occurs when the value of the country's exports falls below the value of its imports. It is typically evaluated by looking at the total value of goods and services a country imports and exports over a certain period of time."
+    }
+]
