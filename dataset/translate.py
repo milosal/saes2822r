@@ -23,6 +23,6 @@ def translate_csv(input_file, output_file):
     print(f"Translation complete. Saved to {output_file}")
 
 # Usage example
-input_file = 'original_harmful.csv'    # Path to the original CSV file
-output_file = 'spanish_harmful.csv'  # Path for the translated CSV file
+input_file = 'annotated_response_ChatGLM2.csv'    # Path to the original CSV file
+output_file = 'spanish_benign.csv'  # Path for the translated CSV file
 translate_csv(input_file, output_file)
