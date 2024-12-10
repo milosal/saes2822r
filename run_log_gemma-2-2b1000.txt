@@ -1,0 +1,3 @@
+SAE activations linear classifier accuracy on pos=datasets/alpaca_data.json neg=datasets/harmful_wiki_cleaned.csv layer=10 dataset_size=1000: 0.9675
+Base activations linear classifier accuracy on pos=datasets/alpaca_data.json neg=datasets/harmful_wiki_cleaned.csv layer=10 dataset_size=1000: 0.9725
+SAE Thresholding true negative rate on pos=datasets/alpaca_data.json neg=datasets/harmful_wiki_cleaned.csv layer=10 dataset_size=1000: 95.5; false negative rate: 7.7
