@@ -21,6 +21,7 @@ def translate_json(input_file, output_file, max_translations=None):
     # Recursive function to translate strings up to the max_translations limit
     def translate_recursive(data):
         nonlocal translation_count
+        print(translation_count)
 
         if isinstance(data, dict):
             return {key: translate_recursive(value) for key, value in data.items()}
@@ -48,4 +49,4 @@ def translate_json(input_file, output_file, max_translations=None):
 # Usage example
 input_file = 'alpaca_data.json'    # Path to the original JSON file
 output_file = 'alpaca_spanish.json'  # Path for the translated JSON file
-translate_json(input_file, output_file, max_translations=700)  # Set max_translations to 100
+translate_json(input_file, output_file, max_translations=1100)  # Set max_translations to 100
